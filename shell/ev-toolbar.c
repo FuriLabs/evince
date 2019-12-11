@@ -264,3 +264,17 @@ ev_toolbar_get_mode (EvToolbar *ev_toolbar)
 
         return priv->toolbar_mode;
 }
+
+void
+ev_toolbar_set_sidebar_visible (EvToolbar *ev_toolbar,
+                                gboolean   visible)
+{
+	EvToolbarPrivate *priv;
+
+	g_return_if_fail (EV_IS_TOOLBAR (ev_toolbar));
+
+	priv = GET_PRIVATE (ev_toolbar);
+	visible = !!visible;
+
+	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (priv->sidebar_button), visible);
+}
