@@ -208,7 +208,7 @@ set_property (EvPropertiesView *properties,
 
 		g_object_set (G_OBJECT (value_label),
 			      "xalign", 0.0,
-			      "width_chars", 25,
+			      "width_chars", 20,
 			      "selectable", TRUE,
 			      "ellipsize", PANGO_ELLIPSIZE_END,
 			      "hexpand", TRUE,
