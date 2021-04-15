@@ -60,5 +60,7 @@ EvToolbarMode ev_toolbar_get_mode           (EvToolbar     *ev_toolbar);
 
 void ev_toolbar_set_sidebar_visible (EvToolbar *ev_toolbar,
                                      gboolean   visible);
+void ev_toolbar_set_mobile          (EvToolbar *ev_toolbar,
+                                     gboolean   mobile);
 
 G_END_DECLS

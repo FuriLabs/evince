@@ -31,38 +31,50 @@
           </packing>
         </child>
         <child>
-          <object class="EvPageActionWidget" id="page_selector">
-            <property name="tooltip-text" translatable="yes">Select page or search in the outline</property>
-            <child internal-child="accessible">
-              <object class="AtkObject">
-                <property name="AtkObject::accessible-name" translatable="yes">Select page</property>
-              </object>
-            </child>
-          </object>
-          <packing>
-            <property name="pack-type">start</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkToggleButton" id="annots_button">
-            <property name="action-name">win.toggle-edit-annots</property>
-            <property name="tooltip-text" translatable="yes">Annotate the document</property>
+          <object class="GtkRevealer" id="page_annots_revealer">
+            <property name="reveal-child">True</property>
+            <property name="transition-type">slide-right</property>
             <child>
-              <object class="GtkImage">
-                <property name="icon-name">document-edit-symbolic</property>
-                <property name="icon-size">1</property>
-                <property name="visible">true</property>
-              </object>
-            </child>
-            <child internal-child="accessible">
-              <object class="AtkObject">
-                <property name="AtkObject::accessible-name" translatable="yes">Annotate document</property>
+              <object class="GtkBox">
+                <property name="orientation">horizontal</property>
+                <property name="spacing">6</property>
+                <child>
+                  <object class="EvPageActionWidget" id="page_selector">
+                    <property name="tooltip-text" translatable="yes">Select page or search in the outline</property>
+                    <child internal-child="accessible">
+                      <object class="AtkObject">
+                        <property name="AtkObject::accessible-name" translatable="yes">Select page</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="pack-type">start</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkToggleButton" id="annots_button">
+                    <property name="action-name">win.toggle-edit-annots</property>
+                    <property name="tooltip-text" translatable="yes">Annotate the document</property>
+                    <child>
+                      <object class="GtkImage">
+                        <property name="icon-name">document-edit-symbolic</property>
+                        <property name="icon-size">1</property>
+                        <property name="visible">true</property>
+                      </object>
+                    </child>
+                    <child internal-child="accessible">
+                      <object class="AtkObject">
+                        <property name="AtkObject::accessible-name" translatable="yes">Annotate document</property>
+                      </object>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="pack-type">start</property>
+                  </packing>
+                </child>
               </object>
             </child>
           </object>
-          <packing>
-            <property name="pack-type">start</property>
-          </packing>
         </child>
         <child>
           <object class="GtkMenuButton" id="action_menu_button">
@@ -103,11 +115,17 @@
           </packing>
         </child>
         <child>
-          <object class="EvZoomAction" id="zoom_action">
-            <signal name="activated" handler="ev_toolbar_zoom_selector_activated"/>
-            <child internal-child="accessible">
-              <object class="AtkObject">
-                <property name="AtkObject::accessible-name" translatable="yes">Set zoom level</property>
+          <object class="GtkRevealer" id="zoom_revealer">
+            <property name="reveal-child">True</property>
+            <property name="transition-type">slide-left</property>
+            <child>
+              <object class="EvZoomAction" id="zoom_action">
+                <signal name="activated" handler="ev_toolbar_zoom_selector_activated"/>
+                <child internal-child="accessible">
+                  <object class="AtkObject">
+                    <property name="AtkObject::accessible-name" translatable="yes">Set zoom level</property>
+                  </object>
+                </child>
               </object>
             </child>
           </object>

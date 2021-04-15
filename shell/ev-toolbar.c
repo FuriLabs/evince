@@ -51,6 +51,8 @@ typedef struct {
 	GtkWidget *zoom_action;
 	GtkWidget *find_button;
 	GtkWidget *action_menu_button;
+        GtkWidget *zoom_revealer;
+        GtkWidget *page_annots_revealer;
 
 	EvToolbarMode toolbar_mode;
 } EvToolbarPrivate;
@@ -141,6 +143,8 @@ ev_toolbar_class_init (EvToolbarClass *klass)
 	gtk_widget_class_bind_template_child_private (widget_class, EvToolbar, action_menu_button);
 	gtk_widget_class_bind_template_child_private (widget_class, EvToolbar, find_button);
 	gtk_widget_class_bind_template_child_private (widget_class, EvToolbar, zoom_action);
+	gtk_widget_class_bind_template_child_private (widget_class, EvToolbar, page_annots_revealer);
+	gtk_widget_class_bind_template_child_private (widget_class, EvToolbar, zoom_revealer);
 	gtk_widget_class_bind_template_callback (widget_class, ev_toolbar_find_button_sensitive_changed);
 	gtk_widget_class_bind_template_callback (widget_class, ev_toolbar_zoom_selector_activated);
 
@@ -235,19 +239,17 @@ ev_toolbar_set_mode (EvToolbar     *ev_toolbar,
         case EV_TOOLBAR_MODE_FULLSCREEN:
                 gtk_widget_show (priv->sidebar_button);
                 gtk_widget_show (priv->action_menu_button);
-                gtk_widget_show (priv->zoom_action);
-                gtk_widget_show (priv->page_selector);
+                gtk_widget_show (priv->zoom_revealer);
+                gtk_widget_show (priv->page_annots_revealer);
                 gtk_widget_show (priv->find_button);
-                gtk_widget_show (priv->annots_button);
                 gtk_widget_hide (priv->open_button);
                 break;
 	case EV_TOOLBAR_MODE_RECENT_VIEW:
                 gtk_widget_hide (priv->sidebar_button);
                 gtk_widget_hide (priv->action_menu_button);
-                gtk_widget_hide (priv->zoom_action);
-                gtk_widget_hide (priv->page_selector);
+                gtk_widget_hide (priv->zoom_revealer);
+                gtk_widget_hide (priv->page_annots_revealer);
                 gtk_widget_hide (priv->find_button);
-                gtk_widget_hide (priv->annots_button);
                 gtk_widget_show (priv->open_button);
                 break;
         }
@@ -277,4 +279,22 @@ ev_toolbar_set_sidebar_visible (EvToolbar *ev_toolbar,
 	visible = !!visible;
 
 	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (priv->sidebar_button), visible);
+}
+
+void
+ev_toolbar_set_mobile (EvToolbar *ev_toolbar,
+                       gboolean   mobile)
+{
+	EvToolbarPrivate *priv;
+
+	g_return_if_fail (EV_IS_TOOLBAR (ev_toolbar));
+
+	priv = GET_PRIVATE (ev_toolbar);
+	mobile = !!mobile;
+
+	gtk_revealer_set_reveal_child (GTK_REVEALER (priv->zoom_revealer), !mobile);
+	gtk_revealer_set_reveal_child (GTK_REVEALER (priv->page_annots_revealer), !mobile);
+
+	if (mobile)
+		gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (priv->annots_button), FALSE);
 }
