@@ -1,135 +1,131 @@
-# Italian translations of Evince package.
-# Copyright (C) 2005-2015, 2019 the Evince'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Evince package.
-# Francesco Marletta <francesco.marletta@tiscali.it>, 2005, 2006, 2007, 2008, 2009, 2010.
-# Claudio Arseni <claudio.arseni@ubuntu.com>, 2011, 2012, 2013, 2014, 2015, 2016.
-# Milo Casagrande <milo@milo.name>, 2017
-# Gianvito Cavasoli <gianvito@gmx.it>, 2016-2022.
+# Kabyle translation for evince.
+# Copyright (C) 2024 evince's COPYRIGHT HOLDER
+# This file is distributed under the same license as the evince package.
+# Rachida SACI <rgebbid@gmail.com>, 2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: evince\n"
+"Project-Id-Version: evince main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/evince/issues/\n"
-"POT-Creation-Date: 2024-03-11 18:40+0000\n"
-"PO-Revision-Date: 2024-03-19 23:41+0200\n"
-"Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
-"Language-Team: Italian <gnome-it-list@gnome.org>\n"
-"Language: it\n"
+"POT-Creation-Date: 2024-03-20 15:17+0000\n"
+"PO-Revision-Date: 2024-03-27 23:32+0100\n"
+"Last-Translator: sa\n"
+"Language-Team: Kabyle <kab@li.org>\n"
+"Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
 "X-Generator: Poedit 3.4.2\n"
-"X-Project-Style: gnome\n"
 
 #: backend/comics/comics-document.c:190 backend/comics/comics-document.c:261
 msgid "File is corrupted"
-msgstr "Il file è danneggiato"
+msgstr "Afaylu yerreẓ"
 
 #: backend/comics/comics-document.c:251
 msgid "Archive is encrypted"
-msgstr "L'archivio è cifrato"
+msgstr "Aɣbar yettwawgelleh"
 
 #: backend/comics/comics-document.c:256
 msgid "No supported images in archive"
-msgstr "Nessuna immagine supportata nell'archivio"
+msgstr "Tugniwin ur ttusefrakent ara deg uɣbar"
 
 #: backend/comics/comics-document.c:266
 msgid "No files in archive"
-msgstr "Nessun file nell'archivio"
+msgstr "Ulac ifuyla deg teṛcivt"
 
 #: backend/comics/comics-document.c:315
 #, c-format
 msgid "Not a comic book MIME type: %s"
-msgstr "Non è un tipo MIME di fumetti: %s"
+msgstr "Ulac anaw MIME n udlis comic: %s"
 
 #: backend/comics/comics-document.c:322
 msgid ""
 "libarchive lacks support for this comic book’s compression, please contact "
 "your distributor"
 msgstr ""
-"Manca il supporto a libarchive per la compressione di questo fumetto, "
-"contattare il distributore"
+"libarchive ur yessefrak ara askussem n udlis-a comic, ttxil-k nermes iwziwez-"
+"inek"
 
 #: backend/comics/comics-document.c:362
 msgid "Can not get local path for archive"
-msgstr "Impossibile ottenere il percorso locale per l'archivio"
+msgstr "Yegguma ad d-yawi abrid adigan i uɣbar"
 
 #: backend/comics/comicsdocument.evince-backend.desktop.in.in:4
 #: backend/comics/evince-comicsdocument.metainfo.xml.in.in:5
 msgid "Comic Books"
-msgstr "Fumetti"
+msgstr "Idlisen comic"
 
 #: backend/comics/evince-comicsdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading comic books"
-msgstr "Aggiunge il supporto per la lettura dei fumetti"
+msgstr "Irennu asalel i tɣuri n yidlisen comic"
 
 #: backend/djvu/djvu-document.c:179
 msgid "DjVu document has incorrect format"
-msgstr "Il documento DjVu ha un formato non corretto"
+msgstr "Amasal n yisemli DjVu d arameɣtu"
 
 #: backend/djvu/djvu-document.c:266
 msgid ""
 "The document is composed of several files. One or more of these files cannot "
 "be accessed."
 msgstr ""
-"Il documento è composto da diversi file. Non è possibile accedere a uno o "
-"più di tali file."
+"Isemli yeddes s waṭas n yifuyla. Yiwen neɣ ugar n yifuyla-a ulac anekcum ɣer-"
+"sen."
 
 #: backend/djvu/djvudocument.evince-backend.desktop.in.in:4
 #: backend/djvu/evince-djvudocument.metainfo.xml.in.in:5
 msgid "DjVu Documents"
-msgstr "Documenti DjVu"
+msgstr "Isemliyen DjVu"
 
 #: backend/djvu/evince-djvudocument.metainfo.xml.in.in:6
 msgid "Adds support for reading DjVu documents"
-msgstr "Aggiunge il supporto per la lettura dei documenti DjVu"
+msgstr "Irennu asalel i tɣuri n yisemliyen DjVu"
 
 #: backend/dvi/dvi-document.c:110
 msgid "DVI document has incorrect format"
-msgstr "Il documento DVI ha un formato non corretto"
+msgstr "Amasal n yisemli DVI d arameɣtu"
 
 #: backend/dvi/dvidocument.evince-backend.desktop.in.in:4
 #: backend/dvi/evince-dvidocument.metainfo.xml.in.in:5
 msgid "DVI Documents"
-msgstr "Documenti DVI"
+msgstr "Isemliyen DVI"
 
 #: backend/dvi/evince-dvidocument.metainfo.xml.in.in:6
 msgid "Adds support for reading DVI documents"
-msgstr "Aggiunge il supporto per la lettura dei documenti DVI"
+msgstr "Irennu asalel i tɣuri n yisemliyen DVI"
 
 #: backend/pdf/evince-pdfdocument.metainfo.xml.in.in:5
 #: backend/pdf/pdfdocument.evince-backend.desktop.in.in:5
 msgid "PDF Documents"
-msgstr "Documenti PDF"
+msgstr "Isemliyen PDF"
 
 #: backend/pdf/evince-pdfdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading PDF Documents"
-msgstr "Aggiunge il supporto per la lettura dei documenti PDF"
+msgstr "Irennu asalel i tɣuri n yisemliyen PDF"
 
 #. translators: this is the document security state
 #: backend/pdf/ev-poppler.c:726 backend/pdf/ev-poppler.c:732
 #: properties/ev-properties-view.c:429
 msgid "Yes"
-msgstr "Sì"
+msgstr "Ih"
 
 #. translators: this is the document security state
 #: backend/pdf/ev-poppler.c:729 backend/pdf/ev-poppler.c:732
 #: properties/ev-properties-view.c:431
 msgid "No"
-msgstr "No"
+msgstr "Ulac"
 
 #: backend/pdf/ev-poppler.c:868
 msgid "Type 1"
-msgstr "Type 1"
+msgstr "Anaw 1"
 
 #: backend/pdf/ev-poppler.c:870
 msgid "Type 1C"
-msgstr "Type 1C"
+msgstr "Anaw 1C"
 
 #: backend/pdf/ev-poppler.c:872
 msgid "Type 3"
-msgstr "Type 3"
+msgstr "Anaw 3"
 
 #: backend/pdf/ev-poppler.c:874
 msgid "TrueType"
@@ -137,19 +133,19 @@ msgstr "TrueType"
 
 #: backend/pdf/ev-poppler.c:876
 msgid "Type 1 (CID)"
-msgstr "Type 1 (CID)"
+msgstr "Anaw 1 (CID)"
 
 #: backend/pdf/ev-poppler.c:878
 msgid "Type 1C (CID)"
-msgstr "Type 1C (CID)"
+msgstr "Anaw 1C (CID)"
 
 #: backend/pdf/ev-poppler.c:880
 msgid "TrueType (CID)"
-msgstr "TrueType (CID)"
+msgstr "TrueType 1 (CID)"
 
 #: backend/pdf/ev-poppler.c:882
 msgid "Unknown font type"
-msgstr "Tipo di carattere sconosciuto"
+msgstr "Anaw n tsefsit d arussin"
 
 #: backend/pdf/ev-poppler.c:926
 msgid ""
@@ -157,18 +153,17 @@ msgid ""
 "14 fonts. If the substitute fonts selected by fontconfig are not the same as "
 "the fonts used to create the PDF, the rendering may not be correct."
 msgstr ""
-"Questo documento contiene tipi di carattere non incorporati che non sono "
-"inclusi nel 14 caratteri standard PDF. Se i caratteri sostitutivi "
-"selelzionati da fontconfig non sono gli stessi usati per creare il PDF, il "
-"rendering potrebbe non essere corretto."
+"Isemli-a deg-s tisefsiyin d tirusliɣin ur d-nekki ara seg 14 n tsefsiyin "
+"tiluganin n PDF. Ma yella tsefsiyin n usemselsi i yettwafernen s fintconfig "
+"mačči yiwen-nsent am tsefsiyin i yettusqedcen deg usuffeɣ n PDF."
 
 #: backend/pdf/ev-poppler.c:931
 msgid "All fonts are either standard or embedded."
-msgstr "Tutti i tipi di carattere sono o standard o incorporati."
+msgstr "Akk tisefsiyin llan tluganin, llan tusliɣin."
 
 #: backend/pdf/ev-poppler.c:961
 msgid "No name"
-msgstr "Nessun nome"
+msgstr "War isem"
 
 #. translators: When a font type does not have
 #. encoding information or it is unknown.  Example:
@@ -183,19 +178,19 @@ msgstr "Nessun nome"
 #: backend/pdf/ev-poppler.c:970 libview/ev-print-operation.c:2691
 #: properties/ev-properties-view.c:230
 msgid "None"
-msgstr "Campo vuoto"
+msgstr "Ula yiwen"
 
 #: backend/pdf/ev-poppler.c:978
 msgid "Embedded subset"
-msgstr "Sottoinsieme incorporato"
+msgstr "Taggayt tarnawt tettwasleɣ"
 
 #: backend/pdf/ev-poppler.c:980
 msgid "Embedded"
-msgstr "Incorporato"
+msgstr "Usliɣ"
 
 #: backend/pdf/ev-poppler.c:982
 msgid "Not embedded"
-msgstr "Non incorporato"
+msgstr "Ur yesliɣ ara"
 
 #. Translators: string starting with a space
 #. * because it is directly appended to the font
@@ -204,7 +199,7 @@ msgstr "Non incorporato"
 #.
 #: backend/pdf/ev-poppler.c:989
 msgid " (One of the Standard 14 Fonts)"
-msgstr " (è uno dei 14 tipi di carattere standard)"
+msgstr " (D yiwet seg 14 n tsefsiyin tiluganin)"
 
 #. Translators: string starting with a space
 #. * because it is directly appended to the font
@@ -213,7 +208,7 @@ msgstr " (è uno dei 14 tipi di carattere standard)"
 #.
 #: backend/pdf/ev-poppler.c:996
 msgid " (Not one of the Standard 14 Fonts)"
-msgstr " (non è uno dei 14 tipi di carattere standard)"
+msgstr " (Mačči d yiwet seg 14 n tsefsiyin tiluganin)"
 
 #. Translators: string is a concatenation of previous
 #. * translated strings to indicate the fonts properties
@@ -235,9 +230,9 @@ msgid ""
 "(%s)"
 msgstr ""
 "%s%s\n"
-"Codifica: %s\n"
+"Asettengel: %s\n"
 "%s\n"
-"Sostituita con <b>%s</b>\n"
+"Asemselsi s <b>%s</b>\n"
 "(%s)"
 
 #. Translators: string is a concatenation of previous
@@ -257,370 +252,357 @@ msgid ""
 "%s"
 msgstr ""
 "%s%s\n"
-"Codifica: %s\n"
+"Asettengel: %s\n"
 "%s"
 
 #: backend/ps/evince-psdocument.metainfo.xml.in.in:5
 #: backend/ps/psdocument.evince-backend.desktop.in.in:5
 msgid "PostScript Documents"
-msgstr "Documenti PostScript"
+msgstr "Isemliyen PostScript"
 
 #: backend/ps/evince-psdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading PostScript documents"
-msgstr "Aggiunge il supporto per la lettura dei documenti PostScript"
+msgstr "Irennu asalel i tɣuri n yisemliyen PostScript"
 
 #: backend/ps/ev-spectre.c:98
 #, c-format
 msgid "Failed to load document “%s”"
-msgstr "Caricamento del documento «%s» non riuscito"
+msgstr "YEcceḍ usali n yisemli \"%s\""
 
 #: backend/ps/ev-spectre.c:131
 #, c-format
 msgid "Failed to save document “%s”"
-msgstr "Salvataggio del documento «%s» non riuscito"
+msgstr "YEcceḍ usekles n yisemli \"%s\""
 
 #: backend/tiff/evince-tiffdocument.metainfo.xml.in.in:5
 #: backend/tiff/tiffdocument.evince-backend.desktop.in.in:4
 msgid "TIFF Documents"
-msgstr "Documenti TIFF"
+msgstr "Isemliyen TIFF"
 
 #: backend/tiff/evince-tiffdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading TIFF documents"
-msgstr "Aggiunge il supporto per la lettura dei documenti TIFF"
+msgstr "Irennu asalel i tɣuri n yisemliyen TIFF"
 
 #: backend/tiff/tiff-document.c:124
 msgid "Invalid document"
-msgstr "Documento non valido"
+msgstr "Isemli d arameɣtu"
 
 #: backend/xps/evince-xpsdocument.metainfo.xml.in.in:5
 #: backend/xps/xpsdocument.evince-backend.desktop.in.in:5
 msgid "XPS Documents"
-msgstr "Documenti XPS"
+msgstr "Isemliyen XPS"
 
 #: backend/xps/evince-xpsdocument.metainfo.xml.in.in:6
 msgid "Adds support for reading XPS documents"
-msgstr "Aggiunge il supporto per la lettura dei documenti XPS"
+msgstr "Irennu asalel i tɣuri n yisemliyen XPS"
 
 #. Manually set name and icon
 #: data/org.gnome.Evince.desktop.in.in:3
 #: data/org.gnome.Evince.metainfo.xml.in:23 shell/ev-window-title.c:131
 #: shell/main.c:300
 msgid "Document Viewer"
-msgstr "Visualizzatore documenti"
+msgstr "Amsenqad n yisemliyen"
 
 #: data/org.gnome.Evince.desktop.in.in:4
 msgid "View multi-page documents"
-msgstr "Visualizza documenti multi-pagina"
+msgstr "Sken isemli s isebtaren iggten"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Evince.desktop.in.in:6
 msgid ""
 "pdf;ps;postscript;dvi;xps;djvu;tiff;document;presentation;viewer;evince;"
-msgstr ""
-"pdf;ps;postscript;dvi;xps;djvu;tiff;documento;presentazione;visualizzatore;"
-"evince;"
+msgstr "pdf;ps;postscript;dvi;xps;djvu;tiff;isemli;asemnid;amsenqad;evince;"
 
 #: data/org.gnome.Evince.desktop.in.in:19
 msgid "New Window"
-msgstr "Nuova finestra"
+msgstr "Asfaylu amaynut"
 
 #: data/org.gnome.Evince.gschema.xml:14
 msgid "Override document restrictions"
-msgstr "Scavalca restrizioni documento"
+msgstr "Zgel tilisa n yisemli"
 
 #: data/org.gnome.Evince.gschema.xml:15
 msgid "Override document restrictions, like restriction to copy or to print."
-msgstr ""
-"Scavalca le restrizioni del documento, come la restrizione di copiare o di "
-"stampare."
+msgstr "Zgel tilas n yisemli, am tlisa n unɣal neɣ n usiggez."
 
 #: data/org.gnome.Evince.gschema.xml:19
 msgid "Automatically reload the document"
-msgstr "Ricarica automaticamente il documento"
+msgstr "Tullsa tawurmant n usali n yisemli"
 
 #: data/org.gnome.Evince.gschema.xml:20
 msgid "The document is automatically reloaded on file change."
-msgstr "Il documento viene automaticamente ricaricato alla modifica del file."
+msgstr "Isemli yuli-d i tikkelt niḍen s wudem awurman deg usenfel n ufaylu."
 
 #: data/org.gnome.Evince.gschema.xml:24
 msgid "The URI of the directory last used to open or save a document"
-msgstr "L'URI dell'ultima directory usata per aprire o salvare un documento"
+msgstr "URI n ukaram aneggaru i yettusqedcen i ulday neɣ i usekles n yisemli"
 
 #: data/org.gnome.Evince.gschema.xml:28
 msgid "The URI of the directory last used to save a picture"
-msgstr "L'URI dell'ultima directory usata per salvare un'immagine"
+msgstr "URI n ukaram aneggaru i yettusqedcen i usekles n tudna"
 
 #: data/org.gnome.Evince.gschema.xml:32
 msgid "Page cache size in MiB"
-msgstr "Dimensione della cache di pagina in MiB"
+msgstr "Teɣzi tuffirt n usebter deg MiB"
 
 #: data/org.gnome.Evince.gschema.xml:33
 msgid ""
 "The maximum size that will be used to cache rendered pages, limits maximum "
 "zoom level."
 msgstr ""
-"La dimensione massima che verrà usata per le pagine renderizzate da inserire "
-"nella cache, limita il livello massimo di zoom."
+"Teɣzi tafellayt ara yettwasqedcen i tririt n yisebtar deg tuffirt, itegg "
+"aswir afellay n zoom."
 
 #: data/org.gnome.Evince.gschema.xml:37
 msgid ""
 "Show a dialog to confirm that the user wants to activate the caret "
 "navigation."
 msgstr ""
-"Mostra un dialogo per chiedere all'utente di confermare l'attivazione della "
-"navigazione con cursore."
+"Sken adiwenni syen sentem belli aseqdac yebɣa ad yermed tunigin n teḥnaccaḍt."
 
 #: data/org.gnome.Evince.gschema.xml:41
 msgid "Allow links to change the zoom level."
-msgstr "Consente ai collegamenti di modificare il livello di ingrandimento."
+msgstr "Sireg iseɣwan i usenfel n uswir zoom."
 
 #: data/org.gnome.Evince.gschema.xml:49
 msgid "Check spelling when writing annotation notes or filling text forms."
 msgstr ""
-"Controllare l'ortografia quando si scrivono annotazioni o si compilano "
-"moduli di testo."
+"Senqed tira mi ara tettaruḍ tizmilin n uwennit neɣ mi ara tettεemmireḍ "
+"tiferkiyin n uḍris."
 
 #: data/org.gnome.Evince.gschema.xml:53
 msgid "Show a side bar next to the document to help navigate the document."
-msgstr ""
-"Mostra una barra laterale accanto al documento per facilitare la navigazione "
-"all'interno del documento."
+msgstr "Sken afeggag adisan uḍfir ɣer ama n yisemli i tunigin deg yisemli."
 
 #: data/org.gnome.Evince.gschema.xml:63
 msgid "Set the default zoom level to display a document."
-msgstr ""
-"Imposta il livello di ingrandimento predefinito per la visualizzazione di un "
-"documento."
+msgstr "Sbadu aswir n zoom amezwer i uskan n yisemli."
 
 #: data/org.gnome.Evince.gschema.xml:70
 msgid ""
 "Display the document as a continuous stream of pages instead of page at a "
 "time."
-msgstr ""
-"Visualizzare il documento come un flusso continuo di pagine anziché una "
-"pagina alla volta."
+msgstr "Sken isemli am usuddem amaɣlal n yisebtar deg wadeg n usebter asebter."
 
 #: data/org.gnome.Evince.gschema.xml:74
 msgid "Show two pages side by side."
-msgstr "Mostra due pagine affiancate."
+msgstr "Sken sin yisebtar tin ɣer tin."
 
 #: data/org.gnome.Evince.gschema.xml:78
 msgid ""
 "Show the first page (odd page) on the left (when displaying two pages side "
 "by side)"
 msgstr ""
-"Mostra la prima pagina (pagina dispari) a sinistra (quando si visualizzano "
-"due pagine affiancate)"
+"Sken asebter amezwaru (asebter aryugan) ɣef zelmeḍ (lawan n uskan n sin "
+"yisebtar wa ɣer tama n wa)"
 
 #: data/org.gnome.Evince.metainfo.xml.in:24
 msgid "Document viewer for popular document formats"
-msgstr "Visualizzatore di documenti per i formati più popolari"
+msgstr "Amsenqad n yisemliyen i yimasalne n yifuyla i yettwassnen"
 
 #: data/org.gnome.Evince.metainfo.xml.in:26
 msgid ""
 "A document viewer for the GNOME desktop. You can view, search or annotate "
 "documents in many different formats."
 msgstr ""
-"Un visualizzatore di documenti per il desktop GNOME. Si può visualizzare, "
-"cercare o annotare i documenti in molti differenti formati."
+"A,senqad n yisemli i tnarit GNOME. Tzemreḍ ad twaliḍ, ad tnadiḍ neɣ ad "
+"twennteḍ isemliyen deg waṭas n yimasalen yemgaraden."
 
 #: data/org.gnome.Evince.metainfo.xml.in:27
 msgid ""
 "Evince supports documents in: PDF, PS, EPS, XPS, DjVu, TIFF, DVI (with "
 "SyncTeX), and Comic Books archives (CBR, CBT, CBZ, CB7)."
 msgstr ""
-"Supporta documenti in: PDF, PS, EPS, XPS, DjVu, TIFF, DVI (con SyncTeX), e "
-"archivi di fumetti (CBR, CBT, CBZ, CB7)."
+"Evince yessefrak isemliyen deg: PDF, PS, EPS, XPS, DjVu, TIFF, DVI (s "
+"SyncTeX), akked iɣbaren n yidlisen Comic (CBR, CBT, CBZ, CB7)."
 
 #: data/org.gnome.Evince.metainfo.xml.in:35
 msgid "A clear, simple UI"
-msgstr "Una pulita, semplice interfaccia"
+msgstr "Agrudem n useqdac taceεlalt, tafessast"
 
 #: data/org.gnome.Evince.metainfo.xml.in:39
 msgid "Advanced highlighting and annotation"
-msgstr "Evidenziazione e annotazione avanzata"
+msgstr "Asebruraq d uwennit leqqayen"
 
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.Evince.metainfo.xml.in:50
 msgid "The GNOME Project"
-msgstr "Il progetto GNOME"
+msgstr "Asenfar n GNOME"
 
 #: data/org.gnome.Evince-previewer.desktop.in.in:3
 msgid "Print Preview"
-msgstr "Anteprima di stampa"
+msgstr "Taskant n usiggez"
 
 #: data/org.gnome.Evince-previewer.desktop.in.in:4
 msgid "Preview before printing"
-msgstr "Visualizza in anteprima il documento da stampare"
+msgstr "Sken send asiggez"
 
 #: libdocument/ev-attachment.c:310 libdocument/ev-attachment.c:331
 #, c-format
 msgid "Couldn’t save attachment “%s”: %s"
-msgstr "Impossibile salvare l'allegato «%s»: %s"
+msgstr "Yegguma ad yettwasekles umedday \"%s\": %s"
 
 #: libdocument/ev-attachment.c:378
 #, c-format
 msgid "Couldn’t open attachment “%s”: %s"
-msgstr "Impossibile aprire l'allegato «%s»: %s"
+msgstr "Yegguma ad yeldi umedday \"%s\": %s"
 
 #: libdocument/ev-attachment.c:417
 #, c-format
 msgid "Couldn’t open attachment “%s”"
-msgstr "Impossibile aprire l'allegato «%s»"
+msgstr "Yegguma ad yeldi umedday \"%s\""
 
 #: libdocument/ev-document-factory.c:105
 #, c-format
 msgid "File type %s (%s) is not supported"
-msgstr "Il tipo di file %s (%s) non è supportato"
+msgstr "Anaw n ufaylu %s (%s) ur yettusefrak ara"
 
 #: libdocument/ev-document-factory.c:370 libdocument/ev-file-helpers.c:417
 #: libdocument/ev-file-helpers.c:463 libdocument/ev-file-helpers.c:482
 #: libdocument/ev-file-helpers.c:563 libdocument/ev-file-helpers.c:572
 msgid "Unknown MIME Type"
-msgstr "Tipo MIME sconosciuto"
+msgstr "Anaw MIME arussin"
 
 #: libdocument/ev-document-factory.c:637
 msgid "All Documents"
-msgstr "Tutti i documenti"
+msgstr "Akk yisemliyen"
 
 #: libdocument/ev-document-factory.c:664 shell/ev-utils.c:272
 msgid "All Files"
-msgstr "Tutti i file"
+msgstr "Akk ifuyla"
 
 #: libdocument/ev-file-helpers.c:157
 #, c-format
 msgid "Failed to create a temporary file: %s"
-msgstr "Creazione di un file temporaneo non riuscita: %s"
+msgstr "Tecceḍ tmerna n ufaylu askudan: %s"
 
 #: libdocument/ev-file-helpers.c:234
 #, c-format
 msgid "Failed to create a temporary directory: %s"
-msgstr "Creazione di una directory temporanea non riuscita: %s"
+msgstr "Tecceḍ tmerna n ukaram askudan: %s"
 
-# [NdT] ho messo di proposito le iniziali maiuscole
 #: libdocument/ev-xmp.c:350
 msgid "This work is in the Public Domain"
-msgstr "Questo lavoro è nel Pubblico Dominio"
+msgstr "Amahil-a deg taɣult azayaz"
 
 #: libmisc/ev-page-action-widget.c:91 libmisc/ev-page-action-widget.c:130
 #, c-format
 msgid "(%d of %d)"
-msgstr "(%d di %d)"
+msgstr "(%d n %d)"
 
 #: libmisc/ev-page-action-widget.c:93 libmisc/ev-page-action-widget.c:134
 #, c-format
 msgid "of %d"
-msgstr "di %d"
+msgstr "n %d"
 
 #: libmisc/ev-page-action-widget.c:254 shell/ev-history.c:454
 #: shell/ev-sidebar-bookmarks.c:343 shell/ev-window.c:954
 #: shell/ev-window.c:5159
 #, c-format
 msgid "Page %s"
-msgstr "Pagina %s"
+msgstr "Asebtar %s"
 
 #: libmisc/ev-search-box.c:112
 msgid "Not found, click to change search options"
-msgstr "Non trovato. Fare clic per modificare le opzioni di ricerca"
+msgstr "Ur yettwaf ara, sit i usenfel n textiṛiyin n unadi"
 
 #: libmisc/ev-search-box.c:186 libmisc/ev-search-box.c:242
 msgid "Search options"
-msgstr "Opzioni di ricerca"
+msgstr "Tinefrunin n unadi"
 
 #: libmisc/ev-search-box.c:318
 msgid "_Whole Words Only"
-msgstr "S_olo parole intere"
+msgstr "Awalen ummiden kan (_W)"
 
 #: libmisc/ev-search-box.c:331
 msgid "C_ase Sensitive"
-msgstr "M_aiuscole/minuscole"
+msgstr "Aḥulfu n yisekkilen imeqqranen d yimeẓẓyanen"
 
 #: libmisc/ev-search-box.c:600
 msgid "Find previous occurrence of the search string"
-msgstr "Trova la precedente occorrenza della stringa di ricerca"
+msgstr "Af timeḍriwt yezrin n uzegrir n unadi"
 
 #: libmisc/ev-search-box.c:607
 msgid "Find next occurrence of the search string"
-msgstr "Trova la successiva occorrenza della stringa di ricerca"
+msgstr "Af timeḍrict i d-iteddun n uzegrir n unadi"
 
 #: libview/ev-jobs.c:625
 #, c-format
 msgid "Failed to render page %d: %s"
-msgstr "Render della pagina %d non riuscito: %s"
+msgstr "Yecceḍ n uskan n usebter %d: %s"
 
 #: libview/ev-jobs.c:632
 #, c-format
 msgid "Failed to render page %d"
-msgstr "Visualizzazione della pagina %d non riuscita"
+msgstr "Yecceḍ n uskan n usebter %d"
 
 #: libview/ev-jobs.c:878
 #, c-format
 msgid "Failed to create thumbnail for page %d"
-msgstr "Creazione della miniatura per la pagina %d non riuscita"
+msgstr "Tecceḍ tmerna n tenfult i usebter %d"
 
 #: libview/ev-jobs.c:2288
 #, c-format
 msgid "Failed to print page %d: %s"
-msgstr "Stampa della pagina %d non riuscita: %s"
+msgstr "Yecceḍ usiggez n usebter %d: %s"
 
 #. Initial state
 #: libview/ev-print-operation.c:346
 msgid "Preparing preview…"
-msgstr "Preparazione anteprima…"
+msgstr "Ayehhi n teskant…"
 
 #: libview/ev-print-operation.c:348 libview/ev-print-operation.c:358
 msgid "Finishing…"
-msgstr "Chiusura…"
+msgstr "Keffu…"
 
 #: libview/ev-print-operation.c:350
 #, c-format
 msgid "Generating preview: page %d of %d"
-msgstr "Generazione anteprima: pagina %d di %d"
+msgstr "Asirew n teskant: asebter %d n %d"
 
 #. Initial state
 #: libview/ev-print-operation.c:356
 msgid "Preparing to print…"
-msgstr "Preparazione alla stampa…"
+msgstr "Aheyyi i usiggez…"
 
 #: libview/ev-print-operation.c:360
 #, c-format
 msgid "Printing page %d of %d…"
-msgstr "Stampa della pagina %d di %d…"
+msgstr "Asiggez n usebter %d n %d…"
 
-# [NdT] qui c'è stata solo una correzione marginale nell'originale
 #: libview/ev-print-operation.c:1561 libview/ev-print-operation.c:2028
 msgid "Your print range selection does not include any pages"
-msgstr "L'intervallo di stampa selezionato non contiene alcuna pagina"
+msgstr "Tafrant-ik n usebter n usiggez ulac akk deg-s isebtar"
 
 #. translators: Title of the print dialog
 #: libview/ev-print-operation.c:1702 libview/ev-print-operation.c:1800
 #: libview/ev-print-operation.c:2079
 msgid "Print"
-msgstr "Stampa"
+msgstr "Siggez"
 
 #: libview/ev-print-operation.c:2002
 msgid "Requested format is not supported by this printer."
-msgstr "Il formato richiesto non è supportato da questa stampante."
+msgstr "Amasal yettwasran ur yettusefrak sɣur tsiggezt-a."
 
 #: libview/ev-print-operation.c:2025
 msgid "Invalid page selection"
-msgstr "Selezione di pagine non valida"
+msgstr "Tafrant n usebter arameɣtu"
 
 #: libview/ev-print-operation.c:2026
 msgid "Warning"
-msgstr "Attenzione"
+msgstr "Asmigel"
 
 #: libview/ev-print-operation.c:2685
 msgid "Page Scaling:"
-msgstr "Ridimensionamento pagina:"
+msgstr "TArigla n usebter:"
 
 #: libview/ev-print-operation.c:2692
 msgid "Shrink to Printable Area"
-msgstr "Riduci all'area stampabile"
+msgstr "Asenɣes ɣer temnaḍt i izemren ad yettwasiggez"
 
 #: libview/ev-print-operation.c:2693
 msgid "Fit to Printable Area"
-msgstr "Adatta all'area stampabile"
+msgstr "Amsisi n temnaḍt n usiggez"
 
 #: libview/ev-print-operation.c:2696
 msgid ""
@@ -635,148 +617,146 @@ msgid ""
 "• “Fit to Printable Area”: Document pages are enlarged or reduced as "
 "required to fit the printable area of the printer page.\n"
 msgstr ""
-"Scala le pagine del documento fino a riempire l'area di stampa selezionata. "
-"Selezionare uno dei seguenti:\n"
+"Semsawi isebtar n yisemli alamend n usebter n tsiggezt i yettwafernen. Fren "
+"yiwen seg yiferdisen-a:\n"
 "\n"
-"• «Nessuna»: non viene eseguito alcun ridimensionamento della pagina.\n"
+"• “Ulac”: Ulac asenfel i yettwagen ɣef uɣbar n usebter.\n"
 "\n"
-"• «Riduci all'area stampabile»: le pagine del documento più grandi dell'area "
-"di stampa sono ridotte per riempire l'area stampabile della pagina di "
-"stampa.\n"
+"• “Asenɣes ɣer temnaḍt n usiggez”: Isebtar n yisemli i imeqqren ugar ɣef "
+"temnaḍt n usiggez ad ttuswezlent akken ara εedlent akked temnaḍt n usiggez n "
+"usebter n tsiggezt.\n"
 "\n"
-"• «Adatta all'area stampabile»: le pagine del documento sono ingrandite o "
-"ridotte alla bisogna per riempire l'area stampabile della pagina di stampa.\n"
+"• “Asemsawi almend n temnaḍt n usiggez”: Isebtar n yisemli ad ttwasmeɣrent "
+"neɣ ad ttuswezlent almend n temnaḍt n usiggez n usebter n tsiggezt.\n"
 
 #: libview/ev-print-operation.c:2708
 msgid "Auto Rotate and Center"
-msgstr "Ruotare e centrare automaticamente"
+msgstr "Tuzzya tawurmant akked wammas"
 
 #: libview/ev-print-operation.c:2711
 msgid ""
 "Rotate printer page orientation of each page to match orientation of each "
 "document page. Document pages will be centered within the printer page."
 msgstr ""
-"Ruota l'orientamento della pagina di stampa per farlo corrispondere "
-"all'orientamento di ogni pagina del documento. Le pagine del documento "
-"verranno centrate nella pagina di stampa."
+"Sezzi tanila n usebter n tsiggezt i yal asebter akken ara temṣada d yal "
+"asebter n yisemli. Isebtar n yisemli ad ilint d tilemmasin deg usebter n "
+"tsiggezt."
 
 #: libview/ev-print-operation.c:2716
 msgid "Select page size using document page size"
-msgstr ""
-"Selezionare la dimensione della pagina usando la dimensione della pagina del "
-"documento"
+msgstr "Fren teɣzi n usebter s useqdec n teɣzi n usebter n yisemli"
 
 #: libview/ev-print-operation.c:2718
 msgid ""
 "When enabled, each page will be printed on the same size paper as the "
 "document page."
 msgstr ""
-"Quando abilitata, ogni pagina verrà stampata usando la stessa dimensione "
-"della pagina nel documento."
+"Mi ara yermed, yal asebter ad yettwasiggez ɣef yiwet n teɣzi n lkaɣeḍ am "
+"usebter n yisemli."
 
 #: libview/ev-print-operation.c:2723
 msgid "Draw border around pages"
-msgstr "Disegna bordo attorno alla pagina"
+msgstr "Suneɣ tama i d-yezzin i yisebatr"
 
 #: libview/ev-print-operation.c:2725
 msgid "When enabled, a border will be drawn around each page."
-msgstr "Quando abilitata, un bordo sarà disegnato attorno a ogni pagina."
+msgstr "Mi ara yettwarmed, ad tettwasuneɣ tama ɣef yal iri n yal asebter."
 
 #: libview/ev-print-operation.c:2819
 msgid "Page Handling"
-msgstr "Gestione pagina"
+msgstr "Asefrek n yisebtar"
 
 #: libview/ev-view-accessible.c:43
 msgid "Scroll Up"
-msgstr "Scorri su"
+msgstr "Drurem d asawen"
 
 #: libview/ev-view-accessible.c:44
 msgid "Scroll Down"
-msgstr "Scorri giù"
+msgstr "Drurem d akessar"
 
 #: libview/ev-view-accessible.c:50
 msgid "Scroll View Up"
-msgstr "Scorre la vista in su"
+msgstr "Sedrurem taskant d asawen"
 
 #: libview/ev-view-accessible.c:51
 msgid "Scroll View Down"
-msgstr "Scorre la vista in giù"
+msgstr "Sedrurem taskant d akessar"
 
 #: libview/ev-view-accessible.c:131
 msgid "Document View"
-msgstr "Vista documento"
+msgstr "Taskant n tsemlit"
 
 #: libview/ev-view.c:2138
 msgid "Go to first page"
-msgstr "Va alla prima pagina"
+msgstr "Ddu ɣer usebter amezwaru"
 
 #: libview/ev-view.c:2140
 msgid "Go to previous page"
-msgstr "Va alla pagina precedente"
+msgstr "Ddu ɣer usebter udfir"
 
 #: libview/ev-view.c:2142
 msgid "Go to next page"
-msgstr "Va alla pagina successiva"
+msgstr "Ddu ɣer usebter uḍfir"
 
 #: libview/ev-view.c:2144
 msgid "Go to last page"
-msgstr "Va all'ultima pagina"
+msgstr "Ddu ɣer usebter aneggaru"
 
 #: libview/ev-view.c:2146
 msgid "Go to page"
-msgstr "Va alla pagina"
+msgstr "Ddu ɣer usebter"
 
 #: libview/ev-view.c:2148
 msgid "Find"
-msgstr "Trova"
+msgstr "Nadi"
 
 #: libview/ev-view.c:2176
 #, c-format
 msgid "Go to page %s"
-msgstr "Va a pagina %s"
+msgstr "Ddu ɣer usebter %s"
 
 #: libview/ev-view.c:2182
 #, c-format
 msgid "Go to %s on file “%s”"
-msgstr "Va a %s nel file «%s»"
+msgstr "Ddu ɣer %s deg ufaylu \"%s\""
 
 #: libview/ev-view.c:2185
 #, c-format
 msgid "Go to file “%s”"
-msgstr "Va al file «%s»"
+msgstr "Ddu ɣer ufaylu \"%s\""
 
 #: libview/ev-view.c:2193
 #, c-format
 msgid "Launch %s"
-msgstr "Lancia %s"
+msgstr "Sker %s"
 
 #: libview/ev-view.c:2200
 msgid "Reset form"
-msgstr "Azzera modulo"
+msgstr "Wennez seg"
 
 #: libview/ev-view-presentation.c:726
 msgid "Jump to page:"
-msgstr "Salta alla pagina:"
+msgstr "Neggez ɣer usebter:"
 
 #: libview/ev-view-presentation.c:1010
 msgid "End of presentation. Press Esc or click to exit."
-msgstr "Fine della presentazione. Premere Esc o fare clic per uscire."
+msgstr "Taggara n usemnid. Sit ɣef Esc neɣ sit ɣef ffeɣ."
 
 #: previewer/ev-previewer.c:57
 msgid "Delete the temporary file"
-msgstr "Elimina il file temporaneo"
+msgstr "Kkes afaylu askudan"
 
 #: previewer/ev-previewer.c:59
 msgid "File specifying print settings"
-msgstr "File che specifica le impostazioni di stampa"
+msgstr "Afaylu yessefruyen iɣewwaren n usiggez"
 
 #: previewer/ev-previewer.c:59
 msgid "FILE"
-msgstr "FILE"
+msgstr "AFAYLU"
 
 #: previewer/ev-previewer.c:61
 msgid "File descriptor of input file"
-msgstr "Descrittore del file del file di input"
+msgstr "Anaglam n ufaylu n ufaylu n unekcum"
 
 #: previewer/ev-previewer.c:61 previewer/ev-previewer.c:65
 msgid "FD"
@@ -784,41 +764,40 @@ msgstr "FD"
 
 #: previewer/ev-previewer.c:63
 msgid "MIME type of input file"
-msgstr "Tipo di MIME del file di input"
+msgstr "Anaw MIME n ufaylu n unekcum"
 
 #: previewer/ev-previewer.c:63
 msgid "TYPE"
-msgstr "TYPE"
+msgstr "ANAW"
 
 #: previewer/ev-previewer.c:65
 msgid "File descriptor of print settings file"
-msgstr "Descrittore del file delle impostazioni di stampa"
+msgstr "Anaglam n ufaylu n ufaylu n yiɣewwaren n usiggez"
 
-# [NdT] Lascio visualizzatore anche per Previewer
 #: previewer/ev-previewer.c:295 previewer/ev-previewer.c:315
 msgid "GNOME Document Previewer"
-msgstr "Anteprima documenti di GNOME"
+msgstr "Amsenqad n yisemli n GNOME"
 
 #: previewer/ev-previewer-toolbar.c:112 shell/evince-toolbar.ui:35
 msgid "Select page or search in the outline"
-msgstr "Seleziona pagina o cerca nell'indice"
+msgstr "Fren asebtar neɣ nadi deg uɣawas"
 
 #: previewer/ev-previewer-toolbar.c:114 shell/evince-toolbar.ui:38
 msgid "Select page"
-msgstr "Seleziona pagina"
+msgstr "Fren asebter"
 
 #: previewer/ev-previewer-window.c:78 shell/ev-window.c:3636
 msgid "Failed to print document"
-msgstr "Stampa del documento non riuscita"
+msgstr "Yecceḍ usiggez n yisemli"
 
 #: previewer/ev-previewer-window.c:193 previewer/ev-previewer-window.c:558
 msgid "Evince Document Viewer"
-msgstr "Visualizzatore di documenti Evince"
+msgstr "Amsenqad n yisemliyen Evince"
 
 #: previewer/ev-previewer-window.c:229
 #, c-format
 msgid "The selected printer “%s” could not be found"
-msgstr "La stampante selezionata «%s» non può essere trovata"
+msgstr "Tasiggezt i yettwafernen \"%s\" ur tettwaf ara"
 
 #: previewer/ev-previewer-window.c:536 shell/ev-window.c:4227
 msgid "Evince"
@@ -826,105 +805,100 @@ msgstr "Evince"
 
 #: previewer/previewer.ui:7
 msgid "_Print"
-msgstr "_Stampa"
+msgstr "_Siggez"
 
 #: previewer/previewer.ui:10
 msgid "Print this document"
-msgstr "Stampa questo documento"
+msgstr "Siggez isemli-a"
 
-# acceleratore come da linee guida
 #: previewer/previewer.ui:20 shell/evince-menus.ui:129
 msgid "Previous Page"
-msgstr "Pagina precedente"
+msgstr "Asebter udfir"
 
-# acceleratore come da linee guida
 #: previewer/previewer.ui:27 shell/evince-menus.ui:133
 msgid "Next Page"
-msgstr "Pagina successiva"
+msgstr "Asebtar uḍfir"
 
-# [NdT] ho preferito così ad "Allarga", si abbina meglio con il mess dopo,
-#       nel quale non mi andava di mettere "stringe" (anche se è la
-#       traduzione di shrink)
 #: previewer/previewer.ui:34
 msgid "Enlarge the document"
-msgstr "Ingrandisce il documento"
+msgstr "Semɣer isemli"
 
 #: previewer/previewer.ui:42
 msgid "Shrink the document"
-msgstr "Rimpicciolisce il documento"
+msgstr "Sewzel isemli"
 
 #: previewer/previewer.ui:49
 msgid "Reset zoom and make the page fit in the window"
-msgstr "Azzera l'ingrandimento e adatta la pagina alla finestra"
+msgstr "Wennez zoom syen sezg asebter deg usfaylu"
 
 #: properties/ev-properties-main.c:116
 msgid "Document"
-msgstr "Documento"
+msgstr "Isemli"
 
 #: properties/ev-properties-view.c:62
 msgid "Title:"
-msgstr "Titolo:"
+msgstr "Azwel:"
 
 #: properties/ev-properties-view.c:63
 msgid "Location:"
-msgstr "Posizione:"
+msgstr "Adig:"
 
 #: properties/ev-properties-view.c:64
 msgid "Subject:"
-msgstr "Oggetto:"
+msgstr "Asentel:"
 
 #: properties/ev-properties-view.c:65
 #: shell/ev-annotation-properties-dialog.c:169
 msgid "Author:"
-msgstr "Autore:"
+msgstr "Ameskar :"
 
 #: properties/ev-properties-view.c:66
 msgid "Keywords:"
-msgstr "Parole chiave:"
+msgstr "Awalen n tsura:"
 
 #: properties/ev-properties-view.c:67
 msgid "Producer:"
-msgstr "Produttore:"
+msgstr "Yesfaras:"
 
 #: properties/ev-properties-view.c:68
 msgid "Creator:"
-msgstr "Creatore:"
+msgstr "Asaraw:"
 
 #: properties/ev-properties-view.c:69
 msgid "Created:"
-msgstr "Creato il:"
+msgstr "Yettwarna:"
 
 #: properties/ev-properties-view.c:70
 msgid "Modified:"
-msgstr "Modificato il:"
+msgstr "Yettwabeddel:"
 
 #: properties/ev-properties-view.c:71
 msgid "Number of Pages:"
-msgstr "Numero di pagine:"
+msgstr "Amḍan n yisebtar:"
 
 #: properties/ev-properties-view.c:72
 msgid "Optimized:"
-msgstr "Ottimizzato:"
+msgstr "Yettwasekk:"
 
 #: properties/ev-properties-view.c:73
 msgid "Format:"
-msgstr "Formato:"
+msgstr "Amasal:"
 
 #: properties/ev-properties-view.c:74
 msgid "Security:"
-msgstr "Sicurezza:"
+msgstr "Taɣellist:"
 
 #: properties/ev-properties-view.c:75
 msgid "Contains Javascript:"
-msgstr "Contiene Javascript:"
+msgstr "Deg-s Javascript:"
 
 #: properties/ev-properties-view.c:76
 msgid "Paper Size:"
-msgstr "Dimensione carta:"
+msgstr "Teɣzi n lkaɣeḍ:"
 
 #: properties/ev-properties-view.c:77
 msgid "Size:"
-msgstr "Dimensione:"
+msgstr "Teɣzi:"
 
 #. Translate to the default units to use for presenting
 #. * lengths to the user. Translate to default:inch if you
@@ -934,9 +908,8 @@ msgstr "Dimensione:"
 #.
 #: properties/ev-properties-view.c:267
 msgid "default:mm"
-msgstr "default:mm"
+msgstr "amezwer:mm"
 
-# [NdT] qui siamo stati precursori :-)
 #: properties/ev-properties-view.c:311
 #, c-format
 msgid "%.0f × %.0f mm"
@@ -945,707 +918,697 @@ msgstr "%.0f × %.0f mm"
 #: properties/ev-properties-view.c:315
 #, c-format
 msgid "%.2f × %.2f inch"
-msgstr "%.2f × %.2f pollici"
+msgstr "%.2f × %.2f inch"
 
 #. Note to translators: first placeholder is the paper name (eg.
 #. * A4), second placeholder is the paper size (eg. 297x210 mm)
 #: properties/ev-properties-view.c:339
 #, c-format
 msgid "%s, Portrait (%s)"
-msgstr "%s, verticale (%s)"
+msgstr "%s, s tehri (%s)"
 
 #. Note to translators: first placeholder is the paper name (eg.
 #. * A4), second placeholder is the paper size (eg. 297x210 mm)
 #: properties/ev-properties-view.c:346
 #, c-format
 msgid "%s, Landscape (%s)"
-msgstr "%s, orizzontale (%s)"
+msgstr "%s, s teɣzi (%s)"
 
 #: properties/ev-properties-view.c:433
 #: shell/ev-annotation-properties-dialog.c:109
 msgid "Unknown"
-msgstr "Sconosciuto"
+msgstr "Arussin"
 
 #: shell/ev-annotation-properties-dialog.c:94
 msgid "Icon:"
-msgstr "Icona:"
+msgstr "Tignit:"
 
 #: shell/ev-annotation-properties-dialog.c:100
 msgid "Note"
-msgstr "Nota"
+msgstr "Tazmilt"
 
 #: shell/ev-annotation-properties-dialog.c:101
 msgid "Comment"
-msgstr "Commento"
+msgstr "Awennit"
 
 #: shell/ev-annotation-properties-dialog.c:102
 msgid "Key"
-msgstr "Chiave"
+msgstr "Tasarut"
 
 #: shell/ev-annotation-properties-dialog.c:103
 msgid "Help"
-msgstr "Aiuto"
+msgstr "Tallalt"
 
 #: shell/ev-annotation-properties-dialog.c:104
 msgid "New Paragraph"
-msgstr "Nuovo paragrafo"
+msgstr "Adiwenni amaynut"
 
 #: shell/ev-annotation-properties-dialog.c:105
 msgid "Paragraph"
-msgstr "Paragrafo"
+msgstr "Taseddart"
 
 #: shell/ev-annotation-properties-dialog.c:106
 msgid "Insert"
-msgstr "Inserisci"
+msgstr "Ger"
 
 #: shell/ev-annotation-properties-dialog.c:107
 msgid "Cross"
-msgstr "Croce"
+msgstr "Anmidag"
 
 #: shell/ev-annotation-properties-dialog.c:108
 msgid "Circle"
-msgstr "Cerchio"
+msgstr "Tawinest"
 
 #: shell/ev-annotation-properties-dialog.c:120
 msgid "Markup type:"
-msgstr "Tipo di marcatura:"
+msgstr "Anaw n ucraḍ:"
 
 #: shell/ev-annotation-properties-dialog.c:126
 msgid "Highlight"
-msgstr "Evidenziato"
+msgstr "Asebrureq"
 
 #: shell/ev-annotation-properties-dialog.c:127
 msgid "Strike out"
-msgstr "Barrato"
+msgstr "Jerreḍ"
 
 #: shell/ev-annotation-properties-dialog.c:128
 msgid "Underline"
-msgstr "Sottolineato"
+msgstr "Derrer"
 
 #: shell/ev-annotation-properties-dialog.c:129
 msgid "Squiggly"
-msgstr "Linea ondulata"
+msgstr "Uεwij"
 
 #: shell/ev-annotation-properties-dialog.c:150 shell/evince-menus.ui:170
 msgid "Annotation Properties"
-msgstr "Proprietà annotazione"
+msgstr "Arraten n uwennit"
 
 #: shell/ev-annotation-properties-dialog.c:154
 msgid "_Close"
-msgstr "_Chiudi"
+msgstr "Mdel (_C)"
 
 #: shell/ev-annotation-properties-dialog.c:155
 msgid "_Apply"
-msgstr "_Applica"
+msgstr "Snes (_A)"
 
 #: shell/ev-annotation-properties-dialog.c:180
 msgid "Color:"
-msgstr "Colore:"
+msgstr "Ini:"
 
 #: shell/ev-annotation-properties-dialog.c:190
 msgid "Opacity:"
-msgstr "Opacità:"
+msgstr "Tillas:"
 
 #: shell/ev-annotation-properties-dialog.c:202
 msgid "Initial window state:"
-msgstr "Stato iniziale della finestra:"
+msgstr "Addad n usfaylu amezwaru:"
 
 #: shell/ev-annotation-properties-dialog.c:208
 msgid "Open"
-msgstr "Apri"
+msgstr "Ldi"
 
 #: shell/ev-annotation-properties-dialog.c:209
 msgid "Close"
-msgstr "Chiudi"
+msgstr "Mdel"
 
 #. Translators: an annotation that looks like a "sticky note"
 #: shell/ev-annotations-toolbar.c:132
 msgid "Note text"
-msgstr "Annotazione"
+msgstr "Mačči uḍfir"
 
 #: shell/ev-annotations-toolbar.c:134
 msgid "Add text annotation"
-msgstr "Aggiunge un'annotazione testuale"
+msgstr "Rnu awennit i uḍris"
 
 #: shell/ev-annotations-toolbar.c:139
 msgid "Highlight text"
-msgstr "Testo evidenziato"
+msgstr "Aḍris n usebruraq"
 
 #: shell/ev-annotations-toolbar.c:141
 msgid "Add highlight annotation"
-msgstr "Aggiunge un'annotazione evidenziata"
+msgstr "Rnu awennit n usebruraq"
 
 #: shell/evince-menus.ui:24
 msgid "_Open Link"
-msgstr "_Apri collegamento"
+msgstr "Ldi aseɣwen (_O)"
 
 #: shell/evince-menus.ui:29
 msgid "_Copy Link Address"
-msgstr "_Copia indirizzo collegamento"
+msgstr "Nɣel tansa n useɣwen (_C)"
 
 #: shell/evince-menus.ui:34
 msgid "_Go To"
-msgstr "V_ai a"
+msgstr "Ddu ɣer (_G)"
 
 #: shell/evince-menus.ui:39
 msgid "Open in New _Window"
-msgstr "Apri in una nuova _finestra"
+msgstr "Ldi deg usfaylu a_maynut"
 
-# acceleratore come da linee guida
 #: shell/evince-menus.ui:46
 msgid "_Previous Page"
-msgstr "Pagina pr_ecedente"
+msgstr "Asebter udfir (_P)"
 
-# acceleratore come da linee guida
 #: shell/evince-menus.ui:50
 msgid "_Next Page"
-msgstr "Pagina s_uccessiva"
+msgstr "Asebtar uḍfir (_N)"
 
 #: shell/evince-menus.ui:54 shell/ev-window.c:3935
 msgid "_Reload"
-msgstr "_Ricarica"
+msgstr "Ales aεebbi (R)"
 
 #: shell/evince-menus.ui:58
 msgid "Auto_scroll"
-msgstr "Scorrimento _automatico"
+msgstr "Adrurem awurman (_s)"
 
 #: shell/evince-menus.ui:64
 msgid "_Copy"
-msgstr "_Copia"
+msgstr "Nɣel (_C)"
 
 #: shell/evince-menus.ui:68
 msgid "Select _All"
-msgstr "_Seleziona tutto"
+msgstr "Fren _Akk"
 
 #: shell/evince-menus.ui:74
 msgid "_Save Image As…"
-msgstr "_Salva immagine come…"
+msgstr "_Sekles tugna am…"
 
 #: shell/evince-menus.ui:79
 msgid "Copy _Image"
-msgstr "Copia _immagine"
+msgstr "Nɣel tugna (_I)"
 
 #: shell/evince-menus.ui:86 shell/evince-menus.ui:157 shell/evince-menus.ui:180
 msgid "_Open Attachment"
-msgstr "_Apri allegato"
+msgstr "Ldi amedday (_O)"
 
 #: shell/evince-menus.ui:91 shell/evince-menus.ui:161 shell/evince-menus.ui:185
 msgid "_Save Attachment As…"
-msgstr "_Salva allegato come…"
+msgstr "Sekles amedday am… (_S)"
 
 #: shell/evince-menus.ui:98
 msgid "Annotation _Properties"
-msgstr "_Proprietà annotazione"
+msgstr "Arraten n uwennit (_P)"
 
 #: shell/evince-menus.ui:103
 msgid "R_emove Annotation"
-msgstr "R_imuovi annotazione"
+msgstr "Kkes awennit (_e)"
 
 #: shell/evince-menus.ui:110
 msgid "_Highlight Selected Text"
-msgstr "_Evidenzia testo selezionato"
+msgstr "Sebruraq aḍris i yettwafernen (_H)"
 
 #: shell/evince-menus.ui:115 shell/evince-toolbar.ui:153
 msgid "Open Containing _Folder"
-msgstr "Apri _cartella"
+msgstr "Ldi akaram ideg yella (_F)"
 
 #: shell/evince-menus.ui:123
 msgid "Navigation"
-msgstr "Navigazione"
+msgstr "Tunigin"
 
 #: shell/evince-menus.ui:125
 msgid "First Page"
-msgstr "Prima pagina"
+msgstr "Asebtar amezwaru"
 
-# acceleratore come da linee guida
 #: shell/evince-menus.ui:137
 msgid "Last Page"
-msgstr "Ultima pagina"
+msgstr "Asebtar anggaru"
 
 #: shell/evince-menus.ui:142
 msgid "History"
-msgstr "Cronologia"
+msgstr "Amazray"
 
 #: shell/evince-menus.ui:144
 msgid "Back"
-msgstr "Indietro"
+msgstr "Tuɣalin"
 
 #: shell/evince-menus.ui:148
 msgid "Forward"
-msgstr "Avanti"
+msgstr "Ɣer sdat"
 
 #: shell/evince-menus.ui:175
 msgid "Remove Annotation"
-msgstr "Rimuovi annotazione"
+msgstr "Kkes awennit"
 
 #: shell/evince-menus.ui:195
 msgid "_Open Bookmark"
-msgstr "Apri segnalibr_o"
+msgstr "Ldi ticraḍ n yisebtar (_O)"
 
 #: shell/evince-menus.ui:201
 msgid "_Rename Bookmark"
-msgstr "_Rinomina segnalibro"
+msgstr "Senfel isem n tecreḍt n usebter (_R)"
 
 #: shell/evince-menus.ui:205
 msgid "_Delete Bookmark"
-msgstr "_Elimina segnalibro"
+msgstr "Kkes ticreḍt n usebter (_D)"
 
 #: shell/evince-menus.ui:214
 msgid "Search in the outline…"
-msgstr "Cerca nell'indice…"
+msgstr "Nadi deg uɣawas…"
 
 #: shell/evince-menus.ui:218
 msgid "Print this section…"
-msgstr "Stampa questa sezione…"
+msgstr "Siggez tafrant-a…"
 
 #: shell/evince-menus.ui:222
 msgid "Collapse all tree"
-msgstr "Ripiega l'albero"
+msgstr "Fneẓ yal aseklu"
 
 #: shell/evince-menus.ui:226
 msgid "Expand all tree"
-msgstr "Espandi l'albero"
+msgstr "Senfel yal aseklu"
 
 #: shell/evince-menus.ui:230
 msgid "Expand all under this element"
-msgstr "Espandi tutto sotto questo elemento"
+msgstr "Senfel meṛṛa ddaw uferdis-a"
 
 #: shell/evince-password-view.ui:22
 msgid ""
 "This document is locked and can only be read by entering the correct "
 "password."
-msgstr ""
-"Questo documento è bloccato e può essere letto solo inserendo la password "
-"corretta."
+msgstr "Isemli-a isekkeṛ, ur yettwaɣṛa ara alamma nura awal n uεeddi ameɣtu."
 
 #: shell/evince-password-view.ui:37
 msgid "_Unlock Document"
-msgstr "_Sblocca documento"
+msgstr "Kkes asekkeṛ i yisemli (_U)"
 
 #: shell/evince-properties-fonts.ui:40
 msgid "Font"
-msgstr "Tipo di carattere"
+msgstr "Tasefsit"
 
 #: shell/evince-sidebar-bookmarks.ui:55
 msgid "Add bookmark"
-msgstr "Aggiunge il segnalibro"
+msgstr "Rnu tacreṭ"
 
 #: shell/evince-sidebar-bookmarks.ui:64
 msgid "Remove bookmark"
-msgstr "Rimuove il segnalibro"
+msgstr "Kkes ticreḍt"
 
 #: shell/evince-toolbar.ui:10
 msgid "Open…"
-msgstr "Apri…"
+msgstr "Ldi…"
 
 #: shell/evince-toolbar.ui:11
 msgid "Open an existing document"
-msgstr "Apre un documento esistente"
+msgstr "Ldi afaylu i yellan"
 
 #: shell/evince-toolbar.ui:20
 msgid "Side pane"
-msgstr "Riquadro laterale"
+msgstr "Agalis adisan"
 
 #: shell/evince-toolbar.ui:49
 msgid "Annotate the document"
-msgstr "Annota il documento"
+msgstr "Wennet n yisemli"
 
 #: shell/evince-toolbar.ui:59
 msgid "Annotate document"
-msgstr "Annota documento"
+msgstr "Wennet yisemli"
 
 #: shell/evince-toolbar.ui:70 shell/evince-toolbar.ui:81
 msgid "File options"
-msgstr "Opzioni file"
+msgstr "Tixtiṛiyin n ufaylu"
 
 #: shell/evince-toolbar.ui:110
 msgid "Set zoom level"
-msgstr "Imposta il livello di ingrandimento"
+msgstr "Sbadu aswir n zoom"
 
 #: shell/evince-toolbar.ui:126
 msgid "Print…"
-msgstr "Stampa…"
+msgstr "Siggez…"
 
 #: shell/evince-toolbar.ui:131
 msgid "Fullscreen"
-msgstr "Schermo intero"
+msgstr "Agdil aččuran"
 
 #: shell/evince-toolbar.ui:136
 msgid "Send To…"
-msgstr "Invia a…"
+msgstr "Azen i…"
 
 #: shell/evince-toolbar.ui:143
 msgid "New _Window"
-msgstr "Nuova _finestra"
+msgstr "A_sfaylu amaynut"
 
 #: shell/evince-toolbar.ui:149
 msgid "Open a C_opy"
-msgstr "Apri una c_opia"
+msgstr "Ldi anɣal (_o)"
 
 #: shell/evince-toolbar.ui:159
 msgid "_Save As…"
-msgstr "_Salva come…"
+msgstr "_Sekles am…"
 
 #: shell/evince-toolbar.ui:165
 msgid "Present as _Slideshow"
-msgstr "Presenta come _diapositiva"
+msgstr "Senked am Slideshow"
 
 #: shell/evince-toolbar.ui:171
 msgid "_Continuous"
-msgstr "_Continuo"
+msgstr "Amaɣlal (_C)"
 
 #: shell/evince-toolbar.ui:175
 msgid "_Dual"
-msgstr "_Duale"
+msgstr "Amyugan (_D)"
 
 #: shell/evince-toolbar.ui:179
 msgid "_Odd Pages Left"
-msgstr "Pa_gine dispari a sinistra"
+msgstr "Isebtar iryuganen i d-yeqqimen (_O)"
 
-# titolo di dialogo
 #: shell/evince-toolbar.ui:183
 msgid "Right to Left Document"
-msgstr "Documento da destra a sinistra"
+msgstr "Seg uyeffus ɣer uzelmaḍ n yisemli"
 
-# cambiato acceleratore per collision
 #: shell/evince-toolbar.ui:189
 msgid "Ro_tate ⤵"
-msgstr "Ruo_ta ⤵"
+msgstr "Sezzi (_t)"
 
 #: shell/evince-toolbar.ui:195
 msgid "Ni_ght Mode"
-msgstr "Modalità not_turna"
+msgstr "Askar n tmeddit (_g)"
 
 #: shell/evince-toolbar.ui:201
 msgid "Prop_erties"
-msgstr "Propri_età"
+msgstr "Arraten (_e)"
 
 #: shell/evince-toolbar.ui:207
 msgid "_Keyboard Shortcuts"
-msgstr "_Scorciatoie da tastiera"
+msgstr "Inegzumen n unasiw (_K)"
 
 #: shell/evince-toolbar.ui:211
 msgid "_Help"
-msgstr "A_iuto"
+msgstr "Tallalt (_H)"
 
 #: shell/evince-toolbar.ui:215
 msgid "_About Document Viewer"
-msgstr "I_nformazioni su Visualizzatore documenti"
+msgstr "Γef umsenqad n yisemli (_A)"
 
 #: shell/evince-zoom-action.ui:5
 msgid "Select or set the zoom level of the document"
-msgstr "Seleziona o imposta il livello di ingrandimento del documento"
+msgstr "Fren neɣ sbadu aswir zoom i yisemli"
 
 #: shell/evince-zoom-action.ui:30
 msgid "Fit Pa_ge"
-msgstr "Adatta pa_gina"
+msgstr "Seqεed asebter (_g)"
 
 #: shell/evince-zoom-action.ui:35
 msgid "Fit _Width"
-msgstr "Adatta larg_hezza"
+msgstr "Semsawi tehri (_W)"
 
 #: shell/evince-zoom-action.ui:40
 msgid "_Automatic"
-msgstr "_Automatico"
+msgstr "_Awurman"
 
 #: shell/ev-keyring.c:86
 #, c-format
 msgid "Password for document %s"
-msgstr "Password per il documento %s"
+msgstr "Awal n uεeddi i yisemli %s"
 
 #: shell/ev-loading-message.c:50 shell/ev-sidebar-annotations.c:140
 #: shell/ev-sidebar-layers.c:119 shell/ev-sidebar-links.c:274
 msgid "Loading…"
-msgstr "Caricamento…"
+msgstr "Asali…"
 
 #: shell/ev-password-view.c:224
 #, c-format
 msgid ""
 "The document “%s” is locked and requires a password before it can be opened."
-msgstr ""
-"Il documento «%s» è bloccato e richiede una password per essere aperto."
+msgstr "Isemli '%s\" isekkeṛ, yesra awal n uεeddi send ad yizmir ad yettwaldi."
 
 #: shell/ev-password-view.c:231
 msgid "Password required"
-msgstr "Password richiesta"
+msgstr "Awal uffir yettusra"
 
 #: shell/ev-password-view.c:238 shell/ev-sidebar-attachments.c:493
 #: shell/ev-window.c:2877 shell/ev-window.c:3174 shell/ev-window.c:4059
 #: shell/ev-window.c:6987 shell/ev-window.c:7213
 msgid "_Cancel"
-msgstr "_Annulla"
+msgstr "Sefsex (_C)"
 
 #: shell/ev-password-view.c:239
 msgid "_Unlock"
-msgstr "_Sblocca"
+msgstr "Iserreḥ (_u)"
 
 #: shell/ev-password-view.c:251
 msgid "_Password:"
-msgstr "Pass_word:"
+msgstr "_Awal n uɛeddi:"
 
 #: shell/ev-password-view.c:285
 msgid "Forget password _immediately"
-msgstr "Dimentica la password _immediatamente"
+msgstr "Ttu awal n uɛeddi _din din"
 
 #: shell/ev-password-view.c:296
 msgid "Remember password until you _log out"
-msgstr "Ricorda la password fino al _termine della sessione"
+msgstr "Cfu ɣef wawal n uεeddi alamma teffɣeḍ"
 
 #: shell/ev-password-view.c:307
 msgid "Remember _forever"
-msgstr "Ricorda per _sempre"
+msgstr "Cfu ɣef wawal n uɛeddi i _lebda"
 
 #: shell/ev-properties-dialog.c:63
 msgid "Properties"
-msgstr "Proprietà"
+msgstr "Iraten"
 
 #: shell/ev-properties-dialog.c:85
 msgid "General"
-msgstr "Generale"
+msgstr "Amatu"
 
 #: shell/ev-properties-dialog.c:95
 msgid "Fonts"
-msgstr "Tipi di carattere"
+msgstr "Tisefsa"
 
 #: shell/ev-properties-dialog.c:108
 msgid "Document License"
-msgstr "Licenza del documento"
+msgstr "Turagt n useqdec"
 
 #: shell/ev-properties-fonts.c:136
 #, c-format
 msgid "Gathering font information… %3d%%"
-msgstr "Raccolta informazioni sul tipo di carattere… %3d%%"
+msgstr "Alqaḍ n telɣut ɣef tsefsit… %3d%%"
 
 #: shell/ev-properties-license.c:146
 msgid "Usage terms"
-msgstr "Termini d'uso"
+msgstr "Tiwtilin n useqdec"
 
 #: shell/ev-properties-license.c:158
 msgid "Text License"
-msgstr "Testo della licenza"
+msgstr "Turagt n uḍris"
 
 #: shell/ev-properties-license.c:169
 msgid "Further Information"
-msgstr "Ulteriori informazioni"
+msgstr "Talɣut niḍen"
 
 #: shell/ev-sidebar-annotations.c:341
 msgid "Document contains no annotations"
-msgstr "Il documento non contiene annotazioni"
+msgstr "Isemli ulac deg-s iwenniten"
 
 #: shell/ev-sidebar-annotations.c:371
 #, c-format
 msgid "Page %d"
-msgstr "Pagina %d"
+msgstr "Asebter %d"
 
 #: shell/ev-sidebar-annotations.c:405
 msgid "No Comment"
-msgstr "Nessun commento"
+msgstr "War awennit"
 
 #: shell/ev-sidebar-annotations.c:566 shell/ev-window.c:7596
 msgid "Annotations"
-msgstr "Annotazioni"
+msgstr "Iwenniten"
 
 #: shell/ev-sidebar-attachments.c:485
 #, c-format
 msgid "A file named “%s” already exists. Do you want to replace it?"
-msgstr "Esiste già un file con nome «%s». Sostituirlo?"
+msgstr "Afaylu s yisem \"%s\" yella yakan. Tebɣiḍ ad t-tsemselsiḍ?"
 
 #: shell/ev-sidebar-attachments.c:489
 #, c-format
 msgid "The file “%s” already exists. Replacing it will overwrite its contents."
-msgstr ""
-"Il file «%s» esiste già. Sostituendolo il suo contenuto sarà sovrascritto."
+msgstr "Afaylu \"%s\" yella yakan. Asemselsi-ines ad yerreẓ akk igburen-is."
 
 #: shell/ev-sidebar-attachments.c:494
 msgid "_Replace"
-msgstr "_Sostituisci"
+msgstr "Semselsi (_R)"
 
 #: shell/ev-sidebar-attachments.c:892 shell/ev-window.c:7620
 msgid "Attachments"
-msgstr "Allegati"
+msgstr "Ticeqqufin"
 
 #: shell/ev-sidebar-bookmarks.c:553 shell/ev-window.c:7604
 msgid "Bookmarks"
-msgstr "Segnalibri"
+msgstr "Signets"
 
 #: shell/ev-sidebar-layers.c:439 shell/ev-window.c:7632
 msgid "Layers"
-msgstr "Livelli"
+msgstr "Tissiyin"
 
 #. Translators: This is the title for the sidebar pane that
 #. * shows the Outline or Table of Contents of the document.
 #.
 #: shell/ev-sidebar-links.c:1450 shell/ev-window.c:7584
 msgid "Outline"
-msgstr "Indice"
+msgstr "Aɣawas"
 
 #: shell/ev-sidebar-thumbnails.c:1038 shell/ev-window.c:7567
 msgid "Thumbnails"
-msgstr "Miniature"
+msgstr "Tinfulin"
 
 #: shell/ev-toolbar.c:98
 msgid "Find a word or phrase in the document"
-msgstr "Trova una parola o frase nel documento"
+msgstr "Af awal neɣ tafyirt deg yisemli"
 
 #: shell/ev-toolbar.c:104
 msgid "Search not available for this document"
-msgstr "La ricerca non è disponibile per questo documento"
+msgstr "Anadi ulac-it i yisemli-a"
 
 #: shell/ev-utils.c:268
 msgid "Supported Image Files"
-msgstr "File immagine supportati"
+msgstr "Ifuyla n tugna yettwasefraken"
 
 #: shell/ev-window.c:1753
 msgid "The document contains no pages"
-msgstr "Il documento non contiene pagine"
+msgstr "Isemli ulac deg-s isebtar"
 
 #: shell/ev-window.c:1756
 msgid "The document contains only empty pages"
-msgstr "Il documento contiene solo pagine vuote"
+msgstr "Isemli deg ala isebtar ilmawen"
 
 #: shell/ev-window.c:1997 shell/ev-window.c:2171
 #, c-format
 msgid "Unable to open document “%s”."
-msgstr "Impossibile aprire il documento «%s»."
+msgstr "Yegguma ad yeldi yisemli \"%s\"."
 
 #: shell/ev-window.c:2136
 #, c-format
 msgid "Loading document from “%s”"
-msgstr "Caricamento documento da «%s»"
+msgstr "Asali n yisemli seg \"%s\""
 
 #: shell/ev-window.c:2141 shell/ev-window.c:2599 shell/ev-window.c:2965
 #: shell/ev-window.c:3700 shell/ev-window.c:3948
 msgid "C_ancel"
-msgstr "A_nnulla"
+msgstr "Sefsex (_A)"
 
 #: shell/ev-window.c:2293 shell/ev-window.c:2650
 #, c-format
 msgid "Downloading document (%d%%)"
-msgstr "Scaricamento documento (%d%%)"
+msgstr "Asader n yisemli (%d%%)"
 
 #: shell/ev-window.c:2326
 msgid "Failed to load remote file."
-msgstr "Caricamento del file remoto non riuscito."
+msgstr "Tuccḍa deg usali n ufaylu anmeggag."
 
 #: shell/ev-window.c:2595
 #, c-format
 msgid "Reloading document from %s"
-msgstr "Aggiornamento del documento da %s"
+msgstr "Allus n usali n yisemli seg %s"
 
 #: shell/ev-window.c:2625
 msgid "Failed to reload document."
-msgstr "Aggiornamento del documento non riuscito."
+msgstr "Yecceḍ wllus n usali n yisemli."
 
-# titolo di dialogo
 #: shell/ev-window.c:2873
 msgid "Open Document"
-msgstr "Apri documento"
+msgstr "Ldi isemli"
 
 #: shell/ev-window.c:2876
 msgid "_Open"
-msgstr "_Apri"
+msgstr "Ldi (_O)"
 
 #: shell/ev-window.c:2951
 #, c-format
 msgid "Saving document to %s"
-msgstr "Salvataggio del documento in %s"
+msgstr "Asekles n yisemli deg %s"
 
 #: shell/ev-window.c:2954
 #, c-format
 msgid "Saving attachment to %s"
-msgstr "Salvataggio dell'allegato in %s"
+msgstr "Asekles n umedday deg %s"
 
 #: shell/ev-window.c:2957
 #, c-format
 msgid "Saving image to %s"
-msgstr "Salvataggio dell'immagine in %s"
+msgstr "Asekles n tugna deg %s"
 
 #: shell/ev-window.c:2999 shell/ev-window.c:3113
 #, c-format
 msgid "The file could not be saved as “%s”."
-msgstr "Il file non può essere salvato come «%s»."
+msgstr "Afaylu yegguma ad yettwasekles am \"%s\"."
 
 #: shell/ev-window.c:3031
 #, c-format
 msgid "Uploading document (%d%%)"
-msgstr "Caricamento documento (%d%%)"
+msgstr "Asali n yisemli (%d%%)"
 
 #: shell/ev-window.c:3035
 #, c-format
 msgid "Uploading attachment (%d%%)"
-msgstr "Caricamento allegato (%d%%)"
+msgstr "Asali n umedday (%d%%)"
 
 #: shell/ev-window.c:3039
 #, c-format
 msgid "Uploading image (%d%%)"
-msgstr "Caricamento immagine (%d%%)"
+msgstr "Asali n tugna (%d%%)"
 
 #: shell/ev-window.c:3171
 msgid "Save As…"
-msgstr "Salva come…"
+msgstr "Sekles am…"
 
 #: shell/ev-window.c:3173 shell/ev-window.c:6986 shell/ev-window.c:7212
 msgid "_Save"
-msgstr "_Salva"
+msgstr "_Sekles"
 
 #: shell/ev-window.c:3260
 msgid "Could not send current document"
-msgstr "Impossibile inviare il documento corrente"
+msgstr "Yegguma ad yettwazen yisemli imiran"
 
 #: shell/ev-window.c:3587
 #, c-format
 msgid "%d pending job in queue"
 msgid_plural "%d pending jobs in queue"
-msgstr[0] "%d lavoro in attesa di essere stampato"
-msgstr[1] "%d lavori in attesa di essere stampati"
+msgstr[0] "%d temsekrit yellan deg uraǧu"
+msgstr[1] "%d temsekriyin yellan deg uraǧu"
 
 #: shell/ev-window.c:3696
 #, c-format
 msgid "Printing job “%s”"
-msgstr "Stampa del lavoro «%s»"
+msgstr "Asiggez n umahil \"%s\""
 
 #: shell/ev-window.c:3914
 msgid "Document contains form fields that have been filled out."
-msgstr "Il documento contiene dei campi di modulo che sono stati riempiti."
+msgstr "Isemli deg-s urtiyen n tferkit i yellan ččuren."
 
 #: shell/ev-window.c:3917
 msgid "Document contains new or modified annotations."
-msgstr "Il documento contiene annotazioni nuove o modificate."
+msgstr "Isemli deg-s iwenniten imaynuten neɣ iwenniten yettwasneflen."
 
 #: shell/ev-window.c:3929
 #, c-format
 msgid "Reload document “%s”?"
-msgstr "Ricaricare il documento «%s»?"
+msgstr "Ales asali n yisemli \"%s\"?"
 
 #: shell/ev-window.c:3931
 msgid "If you reload the document, changes will be permanently lost."
-msgstr "Ricaricando il documento, le modifiche verranno perse per sempre."
+msgstr "Ma yella tulseḍ asali n yisemli, isenfal ad ruḥen i lebda."
 
 #: shell/ev-window.c:3933
 msgid "_No"
-msgstr "_No"
+msgstr "Uhu (_N)"
 
 #: shell/ev-window.c:3942
 #, c-format
 msgid "Save a copy of document “%s” before closing?"
-msgstr "Salvare una copia del documento «%s» prima della chiusura?"
+msgstr "Sakles anɣal n yisemli \"%s\" send amdal?"
 
 #: shell/ev-window.c:3944
 msgid "If you don’t save a copy, changes will be permanently lost."
-msgstr "Se non si salva una copia, le modifiche verranno perse per sempre."
+msgstr "Ma yella ur teskelseḍ ara anɣal, isenfal ad ruḥen i lebda."
 
 #: shell/ev-window.c:3946
 msgid "Close _without Saving"
-msgstr "Chiudi senza sal_vare"
+msgstr "Mdel war ma teskelseḍ (_w)"
 
 #: shell/ev-window.c:3950
 msgid "Save a _Copy"
-msgstr "Salva una _copia"
+msgstr "Sakles anɣal (_C)"
 
 #: shell/ev-window.c:4032
 #, c-format
 msgid "Wait until print job “%s” finishes before closing?"
-msgstr "Attendere la fine del lavoro di stampa «%s» prima di chiudere?"
+msgstr "Rǧu alamma yemmed usiggez \"%s\" send amdal?"
 
 #. TRANS: the singular form is not really used as n_print_jobs > 1
 #. but some languages distinguish between different plurals forms,
@@ -1656,56 +1619,50 @@ msgid "There is %d print job active. Wait until print finishes before closing?"
 msgid_plural ""
 "There are %d print jobs active. Wait until print finishes before closing?"
 msgstr[0] ""
-"C'è %d lavoro di stampa attivo. Attendere la fine della stampa prima di "
-"chiudere?"
+"Yella %d n umahil n usiggez urmid. Rǧu alamma yemmed usiggez send amdal?"
 msgstr[1] ""
-"Ci sono %d lavori di stampa attivi. Attendere la fine delle stampe prima di "
-"chiudere?"
+"Lla %d n yimahilen n usiggez urmiden. Rǧu alamma yemmed usiggez send amdal?"
 
 #: shell/ev-window.c:4053
 msgid "If you close the window, pending print jobs will not be printed."
 msgstr ""
-"Chiudendo la finestra, i lavori di stampa in attesa non verranno stampati."
+"Ma yella tmedleḍ asfaylu, imahilen i netḍen i usiggez ur ttwasiggzen ara."
 
 #: shell/ev-window.c:4057
 msgid "Cancel _print and Close"
-msgstr "Annulla stam_pa e chiudi"
+msgstr "Sefsex asiggez syen mdel (_p)"
 
 #: shell/ev-window.c:4061
 msgid "Close _after Printing"
-msgstr "Chiudi _dopo la stampa"
+msgstr "Mdel seld asiggez (_a)"
 
 #: shell/ev-window.c:4229
 msgid "© 1996–2023 The Evince document viewer authors"
-msgstr "© 1996-2023 Gli autori del visualizzatore di documenti Evince"
+msgstr "© 1996–2023 Imeskaren n umsenqad n yisemliyen Evince"
 
 #: shell/ev-window.c:4232
 msgid "Evince is a simple document viewer for GNOME"
-msgstr "Evince è un semplice visualizzatore di documenti per GNOME"
+msgstr "Evince d amsenqad n yisemliyen afessas i GNOME"
 
 #: shell/ev-window.c:4235
 msgid "translator-credits"
-msgstr ""
-"Gianvito Cavasoli, <gianvito@gmx.it>\n"
-"Milo Casagrande, <milo@milo.name>\n"
-"Claudio Arseni, <claudio.arseni@ubuntu.com>\n"
-"Francesco Marletta, <francesco.marletta@tiscali.it>"
+msgstr "amsuqqel-isemdan"
 
 #: shell/ev-window.c:4717
 msgid "Running in presentation mode"
-msgstr "Esecuzione in modalità presentazione"
+msgstr "Aselkem deg uskar n usemnid"
 
 #: shell/ev-window.c:5704
 msgid "The attachment could not be saved."
-msgstr "L'allegato non può essere salvato."
+msgstr "Amedday yegguma ad yettwasekles."
 
 #: shell/ev-window.c:6026
 msgid "Enable caret navigation?"
-msgstr "Abilitare la navigazione col cursore?"
+msgstr "Rmed tunigin caret?"
 
 #: shell/ev-window.c:6027
 msgid "_Enable"
-msgstr "A_bilita"
+msgstr "Sermed (_E)"
 
 #: shell/ev-window.c:6030
 msgid ""
@@ -1713,55 +1670,53 @@ msgid ""
 "moveable cursor in text pages, allowing you to move around and select text "
 "with your keyboard. Do you want to enable the caret navigation?"
 msgstr ""
-"Premendo F7 è possibile attivare o disattivare la navigazione con cursore. "
-"Questa funzionalità posiziona un cursore mobile all'interno del documento, "
-"consentendo di muoversi e selezionare il testo usando la tastiera. Abilitare "
-"la navigazione con cursore?"
+"Asiti ɣef F7 ad yerr tunigin n teḥnaccaḍt termed neɣ tensa. Tamahilt-a "
+"tettarra taḥnaccaḍt tettḥerrik deg yisebtar n uḍris, tettmuddu-ak tisirag ad "
+"tnekzeḍ deg uḍeris neɣ ad tferneḍ kra seg-s s unasiw-ik. Tebɣiḍ ad tremdeḍ "
+"tunigin s teḥnaccaḍt?"
 
 #: shell/ev-window.c:6035
 msgid "Don’t show this message again"
-msgstr "Non mostrare più questo messaggio"
+msgstr "Ur d-skanay ara izen-a tikkelt niḍen"
 
 #: shell/ev-window.c:6624
 #, c-format
 msgid ""
 "Security alert: this document has been prevented from opening the file “%s”"
-msgstr ""
-"Avviso di sicurezza: questo documento ha impedito l'apertura del file «%s»"
+msgstr "Alɣu n tɣellist: isemli-a iεeggen-d ɣef ulday n ufaylu-a \"%s\""
 
 #: shell/ev-window.c:6689
 msgid "Unable to open external link"
-msgstr "Impossibile aprire il collegamento esterno"
+msgstr "Sens alday n useɣwen azɣaray"
 
 #: shell/ev-window.c:6915
 msgid "Couldn’t find appropriate format to save image"
-msgstr "Impossibile trovare un formato appropriato per salvare l'immagine"
+msgstr "Yegguma ad yettwaf umasal iwatan i usekles n tugna"
 
 #: shell/ev-window.c:6947
 msgid "The image could not be saved."
-msgstr "L'immagine non può essere salvata."
+msgstr "Tugna tegguma ad tettwasekles."
 
 #: shell/ev-window.c:6983
 msgid "Save Image"
-msgstr "Salva immagine"
+msgstr "Sekles tugna"
 
 #: shell/ev-window.c:7141
 msgid "Unable to open attachment"
-msgstr "Impossibile aprire l'allegato"
+msgstr "Rmed alday n umedday"
 
 #: shell/ev-window.c:7209
 msgid "Save Attachment"
-msgstr "Salva allegato"
+msgstr "Sekles amedday"
 
-# titolo di dialogo
 #: shell/ev-window-title.c:108
 msgid "Recent Documents"
-msgstr "Documenti recenti"
+msgstr "Isemliyen n melmi kan"
 
 #: shell/ev-window-title.c:151 shell/ev-window-title.c:153
 #: shell/ev-window-title.c:158
 msgid "Password Required"
-msgstr "Password richiesta"
+msgstr "Awal uffir yettusra"
 
 #: shell/ev-zoom-action.c:41
 msgid "50%"
@@ -1822,363 +1777,360 @@ msgstr "6400%"
 #: shell/help-overlay.ui:13
 msgctxt "shortcut window"
 msgid "Opening, closing, saving and printing"
-msgstr "Apertura, chiusura, salvataggio e stampa"
+msgstr "Alday, amdal, asekles akked usiggez"
 
-# titolo di dialogo
 #: shell/help-overlay.ui:17
 msgctxt "shortcut window"
 msgid "Open a document"
-msgstr "Apre un documento"
+msgstr "Ldi isemli"
 
 #: shell/help-overlay.ui:24
 msgctxt "shortcut window"
 msgid "Open a copy of the current document"
-msgstr "Apre una copia dell'attuale documento"
+msgstr "Ldi anɣal n yisemli-a"
 
 #: shell/help-overlay.ui:31
 msgctxt "shortcut window"
 msgid "Save a copy of the current document"
-msgstr "Salva una copia dell'attuale documento"
+msgstr "Sekles anɣal n yisemli-a"
 
 #: shell/help-overlay.ui:38
 msgctxt "shortcut window"
 msgid "Print the current document"
-msgstr "Stampa l'attuale documento"
+msgstr "Siggez isemli-a"
 
 #: shell/help-overlay.ui:45
 msgctxt "shortcut window"
 msgid "Close the current document window"
-msgstr "Chiude la finestra dell'attuale documento"
+msgstr "Mdel asfaylu n yisemli-a"
 
 #: shell/help-overlay.ui:52
 msgctxt "shortcut window"
 msgid "Reload the document"
-msgstr "Ricarica il documento"
+msgstr "Ales asali n yisemli"
 
 #: shell/help-overlay.ui:61
 msgctxt "shortcut window"
 msgid "Window"
-msgstr "Finestra"
+msgstr "Asfaylu"
 
 #: shell/help-overlay.ui:65
 msgctxt "shortcut window"
 msgid "Toggle fullscreen"
-msgstr "Abilita/Disabilita lo schermo intero"
+msgstr "Senfel agdil aččuran"
 
 #: shell/help-overlay.ui:72
 msgctxt "shortcut window"
 msgid "Enter presentation mode"
-msgstr "Entra in modalità presentazione"
+msgstr "Kcem ɣer uskar n usemnid"
 
 #: shell/help-overlay.ui:79
 msgctxt "shortcut window"
 msgid "Toggle sidebar"
-msgstr "Abilita/Disabilita la barra laterale"
+msgstr "Ldi/Mdel afeggag adisan"
 
 #: shell/help-overlay.ui:86
 msgctxt "shortcut window"
 msgid "Toggle caret navigation"
-msgstr "Abilita/Disabilita la navigazione con cursore"
+msgstr "Ldi/Mdel tunigin n tneḥnaccaḍt"
 
 #: shell/help-overlay.ui:95
 msgctxt "shortcut window"
 msgid "Selecting and copying text"
-msgstr "Seleziona e copia il testo"
+msgstr "Afran d unɣal n uḍris"
 
 #: shell/help-overlay.ui:99
 msgctxt "shortcut window"
 msgid "Copy highlighted text"
-msgstr "Copia il testo evidenziato"
+msgstr "Nɣel aḍris n usebruraq"
 
 #: shell/help-overlay.ui:106
 msgctxt "shortcut window"
 msgid "Select all the text in a document"
-msgstr "Seleziona tutto il testo in un documento"
+msgstr "Fren akk iḍrisen deg yisemli"
 
 #: shell/help-overlay.ui:115
 msgctxt "shortcut window"
 msgid "Rotating and zooming"
-msgstr "Rotazione e ingrandimento"
+msgstr "Asezzi d usemɣer/usenqes"
 
 #: shell/help-overlay.ui:119
 msgctxt "shortcut window"
 msgid "Rotate the page 90 degrees counter-clockwise"
-msgstr "Ruota la pagina di 90 gradi in senso antiorario"
+msgstr "Sezzi asebter s 90 tfesniwin mgal tuzzya tusrigt n temrilt"
 
 #: shell/help-overlay.ui:126
 msgctxt "shortcut window"
 msgid "Rotate the page 90 degrees clockwise"
-msgstr "Ruota la pagina di 90 gradi in senso orario"
+msgstr "Sezzi asebter s 90 tfesniwin s tuzzya tusrigt n temrilt"
 
 #: shell/help-overlay.ui:133 shell/help-overlay.ui:435
 msgctxt "shortcut window"
 msgid "Zoom in"
-msgstr "Aumenta l'ingrandimento"
+msgstr "Semɣeṛ"
 
 #: shell/help-overlay.ui:140 shell/help-overlay.ui:442
 msgctxt "shortcut window"
 msgid "Zoom out"
-msgstr "Diminuisce l'ingrandimento"
+msgstr "Semẓi"
 
 #: shell/help-overlay.ui:147
 msgctxt "shortcut window"
 msgid "Zoom 1∶1"
-msgstr "Ingrandimento 1:1"
+msgstr "Zoom 1∶1"
 
 #: shell/help-overlay.ui:154
 msgctxt "shortcut window"
 msgid "Zoom in (alternative)"
-msgstr "Aumenta l'ingrandimento (alternativo)"
+msgstr "Zoom deg (tamlellit)"
 
 #: shell/help-overlay.ui:161
 msgctxt "shortcut window"
 msgid "Fit page"
-msgstr "Adatta pagina"
+msgstr "Semsawi asebter"
 
 #: shell/help-overlay.ui:168
 msgctxt "shortcut window"
 msgid "Fit width"
-msgstr "Adatta larghezza"
+msgstr "Semsawi tehri"
 
 #: shell/help-overlay.ui:175
 msgctxt "shortcut window"
 msgid "Automatic zoom"
-msgstr "Ingrandimento automatico"
+msgstr "Zoom awurman"
 
-# ../shell/help-overlay.ui.h:11
 #: shell/help-overlay.ui:184
 msgctxt "shortcut window"
 msgid "Moving around the document"
-msgstr "Spostarsi nel documento"
+msgstr "Nkez deg meṛṛa tamiwin n yisemli"
 
 #: shell/help-overlay.ui:188 shell/help-overlay.ui:195
 msgctxt "shortcut window"
 msgid "Move around a page"
-msgstr "Sposta all'interno di una pagina"
+msgstr "Nkez deg meṛṛa asebter"
 
 #: shell/help-overlay.ui:202
 msgctxt "shortcut window"
 msgid "Move up/down a page several lines at a time"
-msgstr "Sposta su/giù una pagina più righe alla volta"
+msgstr "Nkez d asawen/d akessar deg waṭas yizirigen n usebtar ɣef tikkelt"
 
 #: shell/help-overlay.ui:209 shell/help-overlay.ui:456
 msgctxt "shortcut window"
 msgid "Go to previous page"
-msgstr "Va alla pagina precedente"
+msgstr "Ddu ɣer usebter udfir"
 
 #: shell/help-overlay.ui:216 shell/help-overlay.ui:449
 msgctxt "shortcut window"
 msgid "Go to next page"
-msgstr "Va alla pagina successiva"
+msgstr "Ddu ɣer usebter uḍfir"
 
 #: shell/help-overlay.ui:223
 msgctxt "shortcut window"
 msgid "Go to page number"
-msgstr "Va al numero della pagina"
+msgstr "Ddu ɣer uṭṭun n usebter"
 
 #: shell/help-overlay.ui:230
 msgctxt "shortcut window"
 msgid "Go to previous page (fast)"
-msgstr "Va alla pagina precedente (veloce)"
+msgstr "Ddu ɣer usebter udfir (arurad)"
 
 #: shell/help-overlay.ui:237
 msgctxt "shortcut window"
 msgid "Go to next page (fast)"
-msgstr "Va alla pagina successiva (veloce)"
+msgstr "Ddu ɣer usebter uḍfir (arurad)"
 
 #: shell/help-overlay.ui:244
 msgctxt "shortcut window"
 msgid "Go to previous page visited"
-msgstr "Va alla pagina visitata precedente"
+msgstr "Ddu ɣer usebter udfir wuɣur i terziḍ"
 
 #: shell/help-overlay.ui:251
 msgctxt "shortcut window"
 msgid "Go to next page visited"
-msgstr "Va alla pagina visitata successiva"
+msgstr "Ddu ɣer usebter uḍfir wuɣur i terziḍ"
 
 #: shell/help-overlay.ui:258
 msgctxt "shortcut window"
 msgid "Go to the beginning/end of a page"
-msgstr "Va all'inizio/fine di una pagina"
+msgstr "Ddu ɣer tazwara/taggara n usebter"
 
 #: shell/help-overlay.ui:265
 msgctxt "shortcut window"
 msgid "Go to the beginning of the document"
-msgstr "Va all'inizio del documento"
+msgstr "Ddu ɣer tazwara n yisemli"
 
 #: shell/help-overlay.ui:272
 msgctxt "shortcut window"
 msgid "Go to the end of the document"
-msgstr "Va alla fine del documento"
+msgstr "Ddu ɣer taggara n yisemli"
 
 #: shell/help-overlay.ui:281
 msgctxt "shortcut window"
 msgid "Document view and handling"
-msgstr "Visualizzazione e gestione del documento"
+msgstr "Askan n yisemliyen d usefrek-nsen"
 
 #: shell/help-overlay.ui:285
 msgctxt "shortcut window"
 msgid "Add bookmark"
-msgstr "Aggiunge il segnalibro"
+msgstr "Rnu tacreṭ"
 
 #: shell/help-overlay.ui:292
 msgctxt "shortcut window"
 msgid "Remove bookmark"
-msgstr "Rimuove il segnalibro"
+msgstr "Kkes tacreṭ n usebter"
 
 #: shell/help-overlay.ui:299
 msgctxt "shortcut window"
 msgid "Toggle night mode"
-msgstr "Abilita/Disabilita la modalità notturna"
+msgstr "Rmed/Sens askar n tmeddit"
 
 #: shell/help-overlay.ui:306
 msgctxt "shortcut window"
 msgid "Toggle continuous scrolling"
-msgstr "Abilita/Disabilita lo scorrimento continuo"
+msgstr "Rmed/Sens adrurem amaɣlal"
 
 #: shell/help-overlay.ui:313
 msgctxt "shortcut window"
 msgid "Toggle dual page"
-msgstr "Abilita/Disabilita la pagina duale"
+msgstr "Rmed/Sens aryugan n yisebtar ɣer zelmeḍ"
 
 #: shell/help-overlay.ui:320
 msgctxt "shortcut window"
 msgid "Toggle odd pages left"
-msgstr "Abilita/Disabilita le pagine dispari a sinistra"
+msgstr "Rmed/Sens aryugan n yisebtar ɣer yeffus"
 
 #: shell/help-overlay.ui:327
 msgctxt "shortcut window"
 msgid "Document properties"
-msgstr "Proprietà del documento"
+msgstr "Iraten  n isemli"
 
 #: shell/help-overlay.ui:334
 msgctxt "shortcut window"
 msgid "Add a post-it like note"
-msgstr "Aggiunge una nota adesiva"
+msgstr "Rnu post-it am tezmilt"
 
 #: shell/help-overlay.ui:341
 msgctxt "shortcut window"
 msgid "Highlight text"
-msgstr "Testo evidenziato"
+msgstr "Aḍris n usebruraq"
 
 #: shell/help-overlay.ui:350
 msgctxt "shortcut window"
 msgid "Finding text"
-msgstr "Ricerca del testo"
+msgstr "Tifin n uḍris"
 
 #: shell/help-overlay.ui:354
 msgctxt "shortcut window"
 msgid "Show the search bar"
-msgstr "Mostra la barra di ricerca"
+msgstr "Sken afeggag n unadi"
 
 #: shell/help-overlay.ui:361
 msgctxt "shortcut window"
 msgid "Go to the next search result"
-msgstr "Va al risultato di ricerca successivo"
+msgstr "Ddu ɣer ugmuḍ uḍfir n unadi"
 
 #: shell/help-overlay.ui:368
 msgctxt "shortcut window"
 msgid "Go to the previous search result"
-msgstr "Va al risultato di ricerca precedente"
+msgstr "Ddu ɣer ugmuḍ uḍfir n unadi"
 
 #: shell/help-overlay.ui:377
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Generale"
+msgstr "Amatu"
 
 #: shell/help-overlay.ui:381
 msgctxt "shortcut window"
 msgid "Show help"
-msgstr "Mostra l'aiuto"
+msgstr "Sken tallalt"
 
 #: shell/help-overlay.ui:388
 msgctxt "shortcut window"
 msgid "Toggle primary menu"
-msgstr "Attiva/Disattiva il menù principale"
+msgstr "Ldi/Mdel umuɣ agejdan"
 
 #: shell/help-overlay.ui:395
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
-msgstr "Scorciatoie da tastiera"
+msgstr "Inegzumen n unasiw"
 
 #: shell/help-overlay.ui:402
 msgctxt "shortcut window"
 msgid "Close window"
-msgstr "Chiude la finestra"
+msgstr "Mdel asfaylu"
 
 #: shell/help-overlay.ui:411
 msgctxt "shortcut window"
 msgid "Presentation mode"
-msgstr "Modalità presentazione"
+msgstr "Askar n usemnid"
 
 #: shell/help-overlay.ui:415
 msgctxt "shortcut window"
 msgid "Toggle black screen"
-msgstr "Abilita/Disabilita lo schermo nero"
+msgstr "Ldi/Mdel agdil aberkan"
 
 #: shell/help-overlay.ui:422
 msgctxt "shortcut window"
 msgid "Toggle white screen"
-msgstr "Abilita/Disabilita lo schermo bianco"
+msgstr "Ldi/Mdel agdil amellal"
 
 #: shell/help-overlay.ui:431
 msgctxt "shortcut window"
 msgid "Touchpad gestures"
-msgstr "Gesti col touchpad"
+msgstr "Isillifen n tfelwit tamaḍest"
 
 #: shell/main.c:64 shell/main.c:271
 msgid "GNOME Document Viewer"
-msgstr "Visualizzatore documenti di GNOME"
+msgstr "Amsenqad n yisemli GNOME"
 
 #: shell/main.c:72
 msgid "Open a new window."
-msgstr "Apre una nuova finestra."
+msgstr "Ldi asfaylu amaynut."
 
 #: shell/main.c:73
 msgid "The page label of the document to display."
-msgstr "L'etichetta della pagina del documento da visualizzare."
+msgstr "Tabzimt n usebter n yisemli ara yettwaskanen."
 
 #: shell/main.c:73
 msgid "PAGE"
-msgstr "PAGINA"
+msgstr "ASEBTER"
 
 #: shell/main.c:74
 msgid "The page number of the document to display."
-msgstr "Il numero di pagina del documento da visualizzare."
+msgstr "Amḍan n usebtar n yisemli ara yettwaskanen."
 
 #: shell/main.c:74
 msgid "NUMBER"
-msgstr "NUMERO"
+msgstr "AMIḌAN"
 
 #: shell/main.c:75
 msgid "Named destination to display."
-msgstr "Il segnaposto PDF da visualizzare."
+msgstr "Aserken yettusemman ara yettwaskanen."
 
 #: shell/main.c:75
 msgid "DEST"
-msgstr "DESTINAZIONE"
+msgstr "DEST"
 
 #: shell/main.c:76
 msgid "Run evince in fullscreen mode"
-msgstr "Esegue evince in modalità schermo intero"
+msgstr "Selkem evince deg uskar n ugdil aččuran"
 
 #: shell/main.c:77
 msgid "Run evince in presentation mode"
-msgstr "Esegue evince in modalità presentazione"
+msgstr "Selkem evince deg uskar n usemnid"
 
 #: shell/main.c:78
 msgid "Run evince as a previewer"
-msgstr "Esegue evince per vedere l'anteprima di stampa"
+msgstr "Selkem evince am umsenqad"
 
 #: shell/main.c:79
 msgid "The word or phrase to find in the document"
-msgstr "La parola o la frase da trovare nel documento"
+msgstr "Awal neɣ tafyirt ara yettwafen deg yisemli"
 
 #: shell/main.c:79
 msgid "STRING"
-msgstr "STRINGA"
+msgstr "AZRIR"
 
-# [NdT] lo adeguo, anche se non sono molto d'accordo con gli sviluppatori sull'uso di caratteri unicode nel messaggi a riga di comando.
 #: shell/main.c:83
 msgid "[FILE…]"
-msgstr "[FILE…]"
+msgstr "[AFAYLU…]"
